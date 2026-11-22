@@ -1,0 +1,15 @@
+{
+  "null_trials": 1000,
+  "trials_per_variant": 300,
+  "seed": 841792,
+  "ensemble_size": 100,
+  "null_quantile": 0.95,
+  "minimum_detection_rate": 0.8,
+  "cutoffs": {
+    "mean_rel_l2": 1.8048297505416182,
+    "std_rel_l2": 0.1157639339215334,
+    "mmd": 0.12174218203107454,
+    "swd": 5.368422545515006,
+    "spectral_rel_geomean": 0.11913415058945669
+  }
+}

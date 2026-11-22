@@ -1,0 +1,21 @@
+family,metric,status,previous_strength_below_80pct,first_strength_at_or_above_80pct,first_detected_variant,rate_at_first_detection,highest_tested_strength,highest_detection_rate
+shorter range,mean_rel_l2,not reached in tested range,3.9999999825909924,,,,3.9999999825909924,0.06333333333333334
+shorter range,std_rel_l2,not reached in tested range,3.9999999825909924,,,,3.9999999825909924,0.08
+shorter range,mmd,not reached in tested range,3.9999999825909924,,,,3.9999999825909924,0.19333333333333333
+shorter range,swd,reached,1.999999957624695,3.9999999825909924,range -4 px,0.9333333333333333,3.9999999825909924,0.9333333333333333
+shorter range,spectral_rel_geomean,not reached in tested range,3.9999999825909924,,,,3.9999999825909924,0.07333333333333333
+longer range,mean_rel_l2,not reached in tested range,3.9999999983531396,,,,3.9999999983531396,0.09
+longer range,std_rel_l2,not reached in tested range,3.9999999983531396,,,,3.9999999983531396,0.09666666666666666
+longer range,mmd,not reached in tested range,3.9999999983531396,,,,3.9999999983531396,0.17666666666666667
+longer range,swd,reached,1.9999970048436602,3.9999999983531396,range +4 px,1.0,3.9999999983531396,1.0
+longer range,spectral_rel_geomean,not reached in tested range,3.9999999983531396,,,,3.9999999983531396,0.3
+direction,mean_rel_l2,not reached in tested range,7.999999999987642,,,,7.999999999987642,0.07333333333333333
+direction,std_rel_l2,not reached in tested range,7.999999999987642,,,,7.999999999987642,0.08
+direction,mmd,not reached in tested range,7.999999999987642,,,,7.999999999987642,0.18666666666666668
+direction,swd,not reached in tested range,7.999999999987642,,,,7.999999999987642,0.07333333333333333
+direction,spectral_rel_geomean,not reached in tested range,7.999999999987642,,,,7.999999999987642,0.05333333333333334
+anticorrelation,mean_rel_l2,not reached in tested range,0.1091662653689015,,,,0.1091662653689015,0.07
+anticorrelation,std_rel_l2,not reached in tested range,0.1091662653689015,,,,0.1091662653689015,0.07666666666666666
+anticorrelation,mmd,not reached in tested range,0.1091662653689015,,,,0.1091662653689015,0.06666666666666667
+anticorrelation,swd,not reached in tested range,0.1091662653689015,,,,0.1091662653689015,0.14666666666666667
+anticorrelation,spectral_rel_geomean,not reached in tested range,0.1091662653689015,,,,0.1091662653689015,0.10333333333333333
