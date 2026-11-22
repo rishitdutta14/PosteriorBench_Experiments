@@ -1,0 +1,23 @@
+{
+  "seed": 20261120,
+  "source_prior": {
+    "alpha": 2.25,
+    "tau": 3.0
+  },
+  "sensors": 128,
+  "grid": 128,
+  "prior_members": 512,
+  "one_update": true,
+  "assumed_noise_scale": 4,
+  "assumed_noise_definition": "4 times initial predicted sensor standard deviation; floor 1e-6; jitter 1e-8",
+  "actual_base_noise_std": 0.000133,
+  "injected_noise_multipliers": [
+    0.5,
+    1.0,
+    4.0,
+    16.0,
+    64.0,
+    100.0
+  ],
+  "note": "Exact covariance sweep is independent of observed values for a fixed linear Gaussian prior. Stochastic comparison uses a documented fresh replay seed; original slide export retained separately."
+}
