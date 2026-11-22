@@ -2,55 +2,55 @@
 
 **Five experiments on spatial dependence, posterior uncertainty, and physical consistency.**
 
-Rishit Dutta Â· IIT Kanpur
+Rishit Dutta · IIT Kanpur
 
 An inverse problem asks which hidden fields could have produced a set of observations. Recovering a plausible average field is only part of the problem: a posterior also has to describe what remains uncertain, how locations vary together, and whether inferred quantities obey the forward model.
 
 This repository investigates those questions using [PosteriorBench](https://github.com/neuraloperator/PosteriorBench). It contains my experimental analyses and ES-MDA reruns, with saved numerical results, figures, and reproduction code. **PosteriorBench, its datasets, evaluation metrics, and released ES-MDA implementation are the work of the original authors.**
 
-[Experiments](#the-five-experiments) Â· [Reproduce](docs/reproduction.md) Â· [Evidence index](docs/evidence.md) Â· [Scope and limitations](docs/scope.md) Â· [Provenance](provenance.json)
+[Experiments](#the-five-experiments) · [Reproduce](docs/reproduction.md) · [Evidence index](docs/evidence.md) · [Scope and limitations](docs/scope.md) · [Provenance](provenance.json)
 
 ## The five experiments
 
 | | Question | Main observation |
 |---|---|---|
 | **1** | [Can the metrics see spatial dependence?](docs/01_spatial_dependence.md) | At a 4-pixel correlation-range shift, SWD detected 93% of shorter-range and 100% of longer-range changes. Directional and long-range anticorrelation changes were much less detectable in the tested controls. |
-| **2** | [How does sensor placement affect uncertainty?](docs/02_sensor_placement.md) | Even spacing leaves the least exact source uncertainty through 16Ã— injected noise; four clusters leave the least at 64Ã— and 100Ã—. The ES-MDA map comparison uses **4Ã— assumed noise and 512 members**. |
-| **3** | [Where does ES-MDA put posterior variance?](docs/03_posterior_geometry.md) | Across 90 Poisson cases, ES-MDA has a median paired variance ratio of **45Ã—**, while **10** PCA modes explain 90% of its variance versus **14** for the reference. |
+| **2** | [How does sensor placement affect uncertainty?](docs/02_sensor_placement.md) | Even spacing leaves the least exact source uncertainty through 16× injected noise; four clusters leave the least at 64× and 100×. The ES-MDA map comparison uses **4× assumed noise and 512 members**. |
+| **3** | [Where does ES-MDA put posterior variance?](docs/03_posterior_geometry.md) | Across 90 Poisson cases, ES-MDA has a median paired variance ratio of **45×**, while **10** PCA modes explain 90% of its variance versus **14** for the reference. |
 | **4** | [Does internal pressure satisfy Darcy's equation?](docs/04_darcy_consistency.md) | Re-solving the inferred permeability restores local conservation, yet worsens held-out pressure RMSE and reference distance in **all 90 cases**. |
 | **5** | [What does ES-MDA recover on LTMI?](docs/05_ltmi_recovery.md) | Internal light predictions improve beyond the observed resolution. But the scored layer average hides **79.6%** of the combined squared mean error in the two material layers. |
 
 The first study tests metric sensitivity using controlled fields. The second studies sensor informativeness under a fixed Gaussian prior. The last three analyse ES-MDA on the released test cases. Their conclusions have different scopes; the linked experiment pages spell these out.
 
-### 1 Â· Changing dependence while keeping pointwise distributions fixed
+### 1 · Changing dependence while keeping pointwise distributions fixed
 
 ![Detection of shorter and longer correlation ranges](results/01_spatial_dependence/spatial_metric_detection/results/range_detection.png)
 
-Each ensemble has 100 fields. Thresholds are calibrated using independent ensembles from the same generator. A low score can coexist with a change that is difficult for that metric to detect. [Setup, controls, and interpretation â†’](docs/01_spatial_dependence.md)
+Each ensemble has 100 fields. Thresholds are calibrated using independent ensembles from the same generator. A low score can coexist with a change that is difficult for that metric to detect. [Setup, controls, and interpretation →](docs/01_spatial_dependence.md)
 
-### 2 Â· The most informative layout depends on noise
+### 2 · The most informative layout depends on noise
 
 ![Exact posterior uncertainty through 100x injected noise](figures/02_noise_sweep.png)
 
-The curves measure remaining source uncertainty under exact Gaussian conditioning. **Injected measurement noise** on this axis is different from the **assumed ES-MDA noise multiplier** used in the separate 4Ã— map comparison. [See the maps and definitions â†’](docs/02_sensor_placement.md)
+The curves measure remaining source uncertainty under exact Gaussian conditioning. **Injected measurement noise** on this axis is different from the **assumed ES-MDA noise multiplier** used in the separate 4× map comparison. [See the maps and definitions →](docs/02_sensor_placement.md)
 
-### 3 Â· More variance can occupy fewer patterns
+### 3 · More variance can occupy fewer patterns
 
 ![Poisson PCA and variance comparison](figures/03_pca_summary.png)
 
-Variance magnitude and variance geometry answer different questions. Here ES-MDA spreads much more, but that spread is concentrated in fewer leading linear patterns. [Means, variances, PCA maps, and caveats â†’](docs/03_posterior_geometry.md)
+Variance magnitude and variance geometry answer different questions. Here ES-MDA spreads much more, but that spread is concentrated in fewer leading linear patterns. [Means, variances, PCA maps, and caveats →](docs/03_posterior_geometry.md)
 
-### 4 Â· Physical consistency and predictive fit can move in opposite directions
+### 4 · Physical consistency and predictive fit can move in opposite directions
 
 ![Darcy pressure accuracy and local conservation](figures/04_pressure_conservation.png)
 
-The numerical solve uses the same saved permeability map as the internal pressure it is paired with. It repairs a physical inconsistency while exposing a larger pressure error. [Paired design and numerical checks â†’](docs/04_darcy_consistency.md)
+The numerical solve uses the same saved permeability map as the internal pressure it is paired with. It repairs a physical inconsistency while exposing a larger pressure error. [Paired design and numerical checks →](docs/04_darcy_consistency.md)
 
-### 5 Â· An average can conceal opposite layer errors
+### 5 · An average can conceal opposite layer errors
 
 ![LTMI material layers, mean errors, and uncertainty](figures/05_material_layers.png)
 
-An overestimate in one layer can cancel an underestimate in the other. The scored average can therefore look substantially better than either underlying layer. [Light-detail analysis and error decomposition â†’](docs/05_ltmi_recovery.md)
+An overestimate in one layer can cancel an underestimate in the other. The scored average can therefore look substantially better than either underlying layer. [Light-detail analysis and error decomposition →](docs/05_ltmi_recovery.md)
 
 ## Inspect the results without rerunning inference
 
