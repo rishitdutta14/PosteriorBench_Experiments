@@ -1,0 +1,1957 @@
+{
+  "dataset": "darcy",
+  "target_fields": [
+    "a"
+  ],
+  "num_cases": 90,
+  "evaluation": {
+    "prediction_policy": "none",
+    "n_projections": 128,
+    "projection_seed": 0,
+    "projection_distribution": "normalized_dct_grf",
+    "projection_grf_alpha": 2.0,
+    "projection_grf_tau": 3.0,
+    "swd_input_normalization": {
+      "type": "training_zscore",
+      "scale": 1.0,
+      "applies_to": [
+        "swd"
+      ],
+      "statistics": {
+        "a": {
+          "mean": 7.5,
+          "std": 4.5,
+          "source": "<original-local-path>/Darcy",
+          "field": "a"
+        }
+      }
+    },
+    "aggregate_std_ddof": 1,
+    "spectral_definition": "radial_psd_per_bin_relative_error_geometric_mean",
+    "spectral_rel_geomean": "exp(mean(log(valid_relative_errors + 1e-10))) with valid bins requiring finite values and ref_spectrum > 1e-10"
+  },
+  "summary": {
+    "a": {
+      "mean_rel_l2": {
+        "mean": 0.4569736423802005,
+        "std": 0.035301510551249
+      },
+      "std_rel_l2": {
+        "mean": 1.8206050830655802,
+        "std": 0.35165235323263694
+      },
+      "mmd": {
+        "mean": 0.5878342353702702,
+        "std": 0.035611364263506806
+      },
+      "swd": {
+        "mean": 48.898136960481246,
+        "std": 3.674277178404627
+      },
+      "spectral_rel_geomean": {
+        "mean": 0.3768284268751242,
+        "std": 0.18381295928190003
+      }
+    }
+  },
+  "per_case": {
+    "darcy_11": {
+      "a": {
+        "mean_rel_l2": 0.41187559970336957,
+        "std_rel_l2": 1.9484010793565474,
+        "mmd": 0.5845365925560182,
+        "swd": 45.45303220597967,
+        "spectral_rel_geomean": 0.48871253263958697,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_12": {
+      "a": {
+        "mean_rel_l2": 0.4999682240168449,
+        "std_rel_l2": 1.6109217793112383,
+        "mmd": 0.598800550080311,
+        "swd": 52.085066926228585,
+        "spectral_rel_geomean": 0.22815187022888905,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_13": {
+      "a": {
+        "mean_rel_l2": 0.4275845103607273,
+        "std_rel_l2": 1.6401836069309172,
+        "mmd": 0.5629539213489347,
+        "swd": 45.5584620172672,
+        "spectral_rel_geomean": 0.2759319030732462,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_14": {
+      "a": {
+        "mean_rel_l2": 0.45516926417596987,
+        "std_rel_l2": 1.6093020872126114,
+        "mmd": 0.5785244488798986,
+        "swd": 49.360886665718986,
+        "spectral_rel_geomean": 0.3995671528123647,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_15": {
+      "a": {
+        "mean_rel_l2": 0.4811305238509549,
+        "std_rel_l2": 1.5864510144530006,
+        "mmd": 0.5835302426841903,
+        "swd": 42.82491216375594,
+        "spectral_rel_geomean": 0.36432084854449653,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_16": {
+      "a": {
+        "mean_rel_l2": 0.4298216392254201,
+        "std_rel_l2": 1.4246598786169014,
+        "mmd": 0.5540269820805677,
+        "swd": 47.76018491581712,
+        "spectral_rel_geomean": 0.19032379075389094,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_17": {
+      "a": {
+        "mean_rel_l2": 0.4422973590199475,
+        "std_rel_l2": 2.0455895957830252,
+        "mmd": 0.6154107007747887,
+        "swd": 50.61515025535982,
+        "spectral_rel_geomean": 0.5965753173046507,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_18": {
+      "a": {
+        "mean_rel_l2": 0.5003898109946362,
+        "std_rel_l2": 1.5954535743597287,
+        "mmd": 0.5877935037464337,
+        "swd": 49.34434666642032,
+        "spectral_rel_geomean": 0.33301287071952984,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_19": {
+      "a": {
+        "mean_rel_l2": 0.4315656937566716,
+        "std_rel_l2": 1.106032420420167,
+        "mmd": 0.5287252075301747,
+        "swd": 43.77363548150083,
+        "spectral_rel_geomean": 0.023365414484616938,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_20": {
+      "a": {
+        "mean_rel_l2": 0.44111991563525643,
+        "std_rel_l2": 1.5291769703694462,
+        "mmd": 0.5551206684305655,
+        "swd": 49.8262284353367,
+        "spectral_rel_geomean": 0.23021679647250012,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_21": {
+      "a": {
+        "mean_rel_l2": 0.4080239540445429,
+        "std_rel_l2": 1.327234281979443,
+        "mmd": 0.5300492520490269,
+        "swd": 43.65385679413889,
+        "spectral_rel_geomean": 0.22475618954382556,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_22": {
+      "a": {
+        "mean_rel_l2": 0.4374540031309152,
+        "std_rel_l2": 1.679481548363691,
+        "mmd": 0.562888367627796,
+        "swd": 44.52856285438777,
+        "spectral_rel_geomean": 0.17009581243658473,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_23": {
+      "a": {
+        "mean_rel_l2": 0.4500952061213476,
+        "std_rel_l2": 1.9747251871292042,
+        "mmd": 0.5972578306512036,
+        "swd": 49.11924959296265,
+        "spectral_rel_geomean": 0.6699441887653753,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_24": {
+      "a": {
+        "mean_rel_l2": 0.4354735940788019,
+        "std_rel_l2": 1.3560720733434495,
+        "mmd": 0.5503922377226956,
+        "swd": 46.783634019593265,
+        "spectral_rel_geomean": 0.06411633014545717,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_25": {
+      "a": {
+        "mean_rel_l2": 0.5580262740935821,
+        "std_rel_l2": 2.230045468512865,
+        "mmd": 0.6324489353391277,
+        "swd": 52.90251940814344,
+        "spectral_rel_geomean": 0.4481915327666187,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_26": {
+      "a": {
+        "mean_rel_l2": 0.4375368991972646,
+        "std_rel_l2": 1.4917672776902897,
+        "mmd": 0.5713900017492433,
+        "swd": 49.65551494983506,
+        "spectral_rel_geomean": 0.2227426181970283,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_27": {
+      "a": {
+        "mean_rel_l2": 0.37414481715986214,
+        "std_rel_l2": 1.1279697926369354,
+        "mmd": 0.4887146868765816,
+        "swd": 38.9280923253194,
+        "spectral_rel_geomean": 0.0744148214433932,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_28": {
+      "a": {
+        "mean_rel_l2": 0.4452847378366015,
+        "std_rel_l2": 1.995956876200624,
+        "mmd": 0.5888734732972606,
+        "swd": 50.16862865512525,
+        "spectral_rel_geomean": 0.6207614401608536,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_29": {
+      "a": {
+        "mean_rel_l2": 0.43023475012846984,
+        "std_rel_l2": 1.240158369397356,
+        "mmd": 0.5418923813297253,
+        "swd": 50.34667769729283,
+        "spectral_rel_geomean": 0.18156827690285113,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_30": {
+      "a": {
+        "mean_rel_l2": 0.4315097329466081,
+        "std_rel_l2": 2.421245338309902,
+        "mmd": 0.5994496560085006,
+        "swd": 46.4477397242393,
+        "spectral_rel_geomean": 0.6438688939122982,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_31": {
+      "a": {
+        "mean_rel_l2": 0.45009968190701244,
+        "std_rel_l2": 1.7577230750587323,
+        "mmd": 0.5712885107438124,
+        "swd": 45.96541854683454,
+        "spectral_rel_geomean": 0.24833288859378383,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_32": {
+      "a": {
+        "mean_rel_l2": 0.40656695823968164,
+        "std_rel_l2": 1.8339960524006094,
+        "mmd": 0.5788279730411394,
+        "swd": 48.26908824650591,
+        "spectral_rel_geomean": 0.5537342609155821,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_33": {
+      "a": {
+        "mean_rel_l2": 0.4381798510360008,
+        "std_rel_l2": 2.0412553885805,
+        "mmd": 0.5963907268998864,
+        "swd": 50.0747100389584,
+        "spectral_rel_geomean": 0.46107473681708755,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_34": {
+      "a": {
+        "mean_rel_l2": 0.46371755959792443,
+        "std_rel_l2": 1.6222687704234544,
+        "mmd": 0.5921341150815692,
+        "swd": 50.025036397642026,
+        "spectral_rel_geomean": 0.23069834926051694,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_35": {
+      "a": {
+        "mean_rel_l2": 0.4175789203667703,
+        "std_rel_l2": 1.5887145521273616,
+        "mmd": 0.5467602818938182,
+        "swd": 44.84206194999947,
+        "spectral_rel_geomean": 0.24029760044336684,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_36": {
+      "a": {
+        "mean_rel_l2": 0.48563738627441144,
+        "std_rel_l2": 2.149008596610258,
+        "mmd": 0.609605430781921,
+        "swd": 49.745227695626866,
+        "spectral_rel_geomean": 0.43561781364443286,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_37": {
+      "a": {
+        "mean_rel_l2": 0.4051055591067538,
+        "std_rel_l2": 1.2022992063356166,
+        "mmd": 0.5050076469445501,
+        "swd": 42.98499026002899,
+        "spectral_rel_geomean": 0.08854238496162549,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_38": {
+      "a": {
+        "mean_rel_l2": 0.4623478490468375,
+        "std_rel_l2": 1.6526462489681029,
+        "mmd": 0.576622088790697,
+        "swd": 50.074640885994626,
+        "spectral_rel_geomean": 0.24932395166292487,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_39": {
+      "a": {
+        "mean_rel_l2": 0.39622425240066544,
+        "std_rel_l2": 1.173807849352231,
+        "mmd": 0.5028597878963564,
+        "swd": 42.27893237311905,
+        "spectral_rel_geomean": 0.0408784558822654,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_40": {
+      "a": {
+        "mean_rel_l2": 0.4106215910510298,
+        "std_rel_l2": 1.4152846625915436,
+        "mmd": 0.5480779820453285,
+        "swd": 44.72912620119533,
+        "spectral_rel_geomean": 0.25282638602178864,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_41": {
+      "a": {
+        "mean_rel_l2": 0.4196983286969888,
+        "std_rel_l2": 1.5209474888180543,
+        "mmd": 0.5516108751968042,
+        "swd": 46.20734733369234,
+        "spectral_rel_geomean": 0.2168669919702373,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_42": {
+      "a": {
+        "mean_rel_l2": 0.48162500133421987,
+        "std_rel_l2": 2.081218716955423,
+        "mmd": 0.6176312784127583,
+        "swd": 51.30891176387085,
+        "spectral_rel_geomean": 0.3312798369780415,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_43": {
+      "a": {
+        "mean_rel_l2": 0.44210669502561817,
+        "std_rel_l2": 1.8295676794136972,
+        "mmd": 0.6066793252778381,
+        "swd": 52.35383454368434,
+        "spectral_rel_geomean": 0.5386013789831091,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_44": {
+      "a": {
+        "mean_rel_l2": 0.4582039594953694,
+        "std_rel_l2": 2.1853876843878295,
+        "mmd": 0.609385029328651,
+        "swd": 47.582030640186126,
+        "spectral_rel_geomean": 0.3002016760709868,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_45": {
+      "a": {
+        "mean_rel_l2": 0.4800969141573743,
+        "std_rel_l2": 2.1111660411230226,
+        "mmd": 0.6155765285395941,
+        "swd": 49.208620849689424,
+        "spectral_rel_geomean": 0.3872100875780336,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_46": {
+      "a": {
+        "mean_rel_l2": 0.48099176415557116,
+        "std_rel_l2": 2.054112266050908,
+        "mmd": 0.5983392366897219,
+        "swd": 47.317644350456206,
+        "spectral_rel_geomean": 0.5121555158609802,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_47": {
+      "a": {
+        "mean_rel_l2": 0.46189944230204305,
+        "std_rel_l2": 2.2140952890952947,
+        "mmd": 0.6230440537458648,
+        "swd": 54.12326475357983,
+        "spectral_rel_geomean": 0.6252772963353023,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_48": {
+      "a": {
+        "mean_rel_l2": 0.4725478571467581,
+        "std_rel_l2": 2.057988985198838,
+        "mmd": 0.6264465553031867,
+        "swd": 54.32746870938987,
+        "spectral_rel_geomean": 0.7119334959644746,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_49": {
+      "a": {
+        "mean_rel_l2": 0.45940765983069937,
+        "std_rel_l2": 2.3761451768988744,
+        "mmd": 0.6324897688434897,
+        "swd": 51.42459302006627,
+        "spectral_rel_geomean": 0.8215948514214851,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_50": {
+      "a": {
+        "mean_rel_l2": 0.4799710346828941,
+        "std_rel_l2": 2.010041850113915,
+        "mmd": 0.6460671647202779,
+        "swd": 58.65964069858261,
+        "spectral_rel_geomean": 0.6153769430721953,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_51": {
+      "a": {
+        "mean_rel_l2": 0.49263583295882624,
+        "std_rel_l2": 1.9325760681618032,
+        "mmd": 0.6034847541261137,
+        "swd": 50.768737509311045,
+        "spectral_rel_geomean": 0.3378102998446559,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_52": {
+      "a": {
+        "mean_rel_l2": 0.440888410281691,
+        "std_rel_l2": 1.3154459477445228,
+        "mmd": 0.5495045330758751,
+        "swd": 43.81967881496048,
+        "spectral_rel_geomean": 0.16012731723063423,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_53": {
+      "a": {
+        "mean_rel_l2": 0.4895556018184782,
+        "std_rel_l2": 1.7184052015478852,
+        "mmd": 0.5809175091565636,
+        "swd": 45.76724416130112,
+        "spectral_rel_geomean": 0.36594543488044556,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_54": {
+      "a": {
+        "mean_rel_l2": 0.462617258530888,
+        "std_rel_l2": 1.6142991967311013,
+        "mmd": 0.5695189645151422,
+        "swd": 50.60865537513607,
+        "spectral_rel_geomean": 0.24318714096514207,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_55": {
+      "a": {
+        "mean_rel_l2": 0.46809074869183087,
+        "std_rel_l2": 1.9462904725692867,
+        "mmd": 0.5967552900915403,
+        "swd": 49.957085912271396,
+        "spectral_rel_geomean": 0.35941181212948636,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_56": {
+      "a": {
+        "mean_rel_l2": 0.46599400921220185,
+        "std_rel_l2": 1.943260768321581,
+        "mmd": 0.6113062556797135,
+        "swd": 50.648316604543844,
+        "spectral_rel_geomean": 0.3226348886770703,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_57": {
+      "a": {
+        "mean_rel_l2": 0.4822016862982322,
+        "std_rel_l2": 2.273757397172259,
+        "mmd": 0.6289298349978252,
+        "swd": 51.803920783208,
+        "spectral_rel_geomean": 0.4310373224622846,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_58": {
+      "a": {
+        "mean_rel_l2": 0.4273577628578555,
+        "std_rel_l2": 1.4424639131431285,
+        "mmd": 0.558576573018045,
+        "swd": 47.804194301964536,
+        "spectral_rel_geomean": 0.08782029418731581,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_59": {
+      "a": {
+        "mean_rel_l2": 0.4457081835153969,
+        "std_rel_l2": 2.044114286738422,
+        "mmd": 0.5997874958881966,
+        "swd": 51.09020220436873,
+        "spectral_rel_geomean": 0.35453031711621064,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_60": {
+      "a": {
+        "mean_rel_l2": 0.5187144250702413,
+        "std_rel_l2": 1.6841945737699597,
+        "mmd": 0.5919670826001506,
+        "swd": 51.27471121635516,
+        "spectral_rel_geomean": 0.4308114825919091,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_61": {
+      "a": {
+        "mean_rel_l2": 0.4922748749602022,
+        "std_rel_l2": 1.7359479757846712,
+        "mmd": 0.5886800584436509,
+        "swd": 46.284293147951004,
+        "spectral_rel_geomean": 0.38493034005622817,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_62": {
+      "a": {
+        "mean_rel_l2": 0.3950950841480201,
+        "std_rel_l2": 1.2289957911070473,
+        "mmd": 0.5186168238154499,
+        "swd": 43.0456895161645,
+        "spectral_rel_geomean": 0.10721988915312605,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_63": {
+      "a": {
+        "mean_rel_l2": 0.4179574295269887,
+        "std_rel_l2": 1.6135879847300505,
+        "mmd": 0.5340310907311323,
+        "swd": 43.48831969283067,
+        "spectral_rel_geomean": 0.2542546502983492,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_64": {
+      "a": {
+        "mean_rel_l2": 0.5228470917323418,
+        "std_rel_l2": 2.3731829645053173,
+        "mmd": 0.6246057424884573,
+        "swd": 49.99863968013481,
+        "spectral_rel_geomean": 0.35379742509086337,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_65": {
+      "a": {
+        "mean_rel_l2": 0.4725397894341762,
+        "std_rel_l2": 1.6162276838534617,
+        "mmd": 0.5784981943334195,
+        "swd": 52.19827505733535,
+        "spectral_rel_geomean": 0.27736055508207713,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_66": {
+      "a": {
+        "mean_rel_l2": 0.4744203597619013,
+        "std_rel_l2": 2.0790091361069027,
+        "mmd": 0.6191005213228558,
+        "swd": 52.16141506007002,
+        "spectral_rel_geomean": 0.42727816181603595,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_67": {
+      "a": {
+        "mean_rel_l2": 0.4612493929952169,
+        "std_rel_l2": 1.9466674661339174,
+        "mmd": 0.6170756024707776,
+        "swd": 52.76700599864325,
+        "spectral_rel_geomean": 0.30225245384167077,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_68": {
+      "a": {
+        "mean_rel_l2": 0.45246370191826973,
+        "std_rel_l2": 1.9220374496635548,
+        "mmd": 0.6017726769541887,
+        "swd": 46.08372239258324,
+        "spectral_rel_geomean": 0.2810861085633696,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_69": {
+      "a": {
+        "mean_rel_l2": 0.5188318152794666,
+        "std_rel_l2": 2.0826263534291316,
+        "mmd": 0.6253230697031001,
+        "swd": 48.75006070893926,
+        "spectral_rel_geomean": 0.48224358258480277,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_70": {
+      "a": {
+        "mean_rel_l2": 0.4511701446617846,
+        "std_rel_l2": 2.3504406214025466,
+        "mmd": 0.6353133947122124,
+        "swd": 51.190240513467145,
+        "spectral_rel_geomean": 0.7118797576584345,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_71": {
+      "a": {
+        "mean_rel_l2": 0.474761894555277,
+        "std_rel_l2": 1.9036533039023253,
+        "mmd": 0.5998798749448473,
+        "swd": 53.49322308956865,
+        "spectral_rel_geomean": 0.4605107439061549,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_72": {
+      "a": {
+        "mean_rel_l2": 0.47598329734150097,
+        "std_rel_l2": 1.9479449833457538,
+        "mmd": 0.6051182415701317,
+        "swd": 53.432318038207306,
+        "spectral_rel_geomean": 0.3247353326159567,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_73": {
+      "a": {
+        "mean_rel_l2": 0.48298168106460376,
+        "std_rel_l2": 2.227787414473311,
+        "mmd": 0.6503564481051728,
+        "swd": 57.385883049339796,
+        "spectral_rel_geomean": 0.5274666276151079,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_74": {
+      "a": {
+        "mean_rel_l2": 0.4625472679086427,
+        "std_rel_l2": 2.232031768242912,
+        "mmd": 0.6173400989104502,
+        "swd": 48.27736903271046,
+        "spectral_rel_geomean": 0.5710479890505921,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_75": {
+      "a": {
+        "mean_rel_l2": 0.4377735046813869,
+        "std_rel_l2": 1.2999704328337123,
+        "mmd": 0.5487003998859659,
+        "swd": 46.32070628670291,
+        "spectral_rel_geomean": 0.21417129699069068,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_76": {
+      "a": {
+        "mean_rel_l2": 0.5041011435463456,
+        "std_rel_l2": 1.9681538219763342,
+        "mmd": 0.5933645571131857,
+        "swd": 46.97341356822467,
+        "spectral_rel_geomean": 0.4371922243625826,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_77": {
+      "a": {
+        "mean_rel_l2": 0.41887110279117085,
+        "std_rel_l2": 1.6703372729179204,
+        "mmd": 0.5540297517559358,
+        "swd": 46.03183584732436,
+        "spectral_rel_geomean": 0.24780991104932495,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_78": {
+      "a": {
+        "mean_rel_l2": 0.4182685763838194,
+        "std_rel_l2": 2.448991686480403,
+        "mmd": 0.6011101856216633,
+        "swd": 49.24231147157086,
+        "spectral_rel_geomean": 0.7312081386351171,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_79": {
+      "a": {
+        "mean_rel_l2": 0.4237084875999364,
+        "std_rel_l2": 1.3628134827415146,
+        "mmd": 0.5245503275435204,
+        "swd": 45.00657717173637,
+        "spectral_rel_geomean": 0.2964781352572494,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_80": {
+      "a": {
+        "mean_rel_l2": 0.4587798813543794,
+        "std_rel_l2": 1.524253290646225,
+        "mmd": 0.5449634488277691,
+        "swd": 42.20618819550386,
+        "spectral_rel_geomean": 0.31879362425514723,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_81": {
+      "a": {
+        "mean_rel_l2": 0.4448356287833936,
+        "std_rel_l2": 1.8450776961150437,
+        "mmd": 0.5988195189829703,
+        "swd": 48.93531834301034,
+        "spectral_rel_geomean": 0.48753146492577537,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_82": {
+      "a": {
+        "mean_rel_l2": 0.46521729781566107,
+        "std_rel_l2": 1.7828751377272998,
+        "mmd": 0.5879635776278219,
+        "swd": 53.32319294206002,
+        "spectral_rel_geomean": 0.44043618291997216,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_83": {
+      "a": {
+        "mean_rel_l2": 0.4650960808591757,
+        "std_rel_l2": 2.3922797783849616,
+        "mmd": 0.6259628915725652,
+        "swd": 49.98007828783748,
+        "spectral_rel_geomean": 0.6796367666486143,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_84": {
+      "a": {
+        "mean_rel_l2": 0.4703708867630547,
+        "std_rel_l2": 1.5973774271816417,
+        "mmd": 0.6067585020202685,
+        "swd": 51.20020121793844,
+        "spectral_rel_geomean": 0.26936153209258773,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_85": {
+      "a": {
+        "mean_rel_l2": 0.46092695025770675,
+        "std_rel_l2": 1.9471386058019324,
+        "mmd": 0.6131280761904903,
+        "swd": 49.58714603065939,
+        "spectral_rel_geomean": 0.5891940463390182,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_86": {
+      "a": {
+        "mean_rel_l2": 0.471429114454441,
+        "std_rel_l2": 2.081628401833017,
+        "mmd": 0.6174569702378342,
+        "swd": 49.79204948911696,
+        "spectral_rel_geomean": 0.49796215019572154,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_87": {
+      "a": {
+        "mean_rel_l2": 0.4181029386853902,
+        "std_rel_l2": 1.4910207469969268,
+        "mmd": 0.5588490443856557,
+        "swd": 46.977670506652544,
+        "spectral_rel_geomean": 0.25887774004277553,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_88": {
+      "a": {
+        "mean_rel_l2": 0.44374445933901996,
+        "std_rel_l2": 1.6497728441491897,
+        "mmd": 0.5813866908168437,
+        "swd": 47.491770744438604,
+        "spectral_rel_geomean": 0.3085797909942551,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_89": {
+      "a": {
+        "mean_rel_l2": 0.5176920539489123,
+        "std_rel_l2": 2.4541187071495973,
+        "mmd": 0.6350620698936903,
+        "swd": 54.30071791230488,
+        "spectral_rel_geomean": 0.7477784454141486,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_90": {
+      "a": {
+        "mean_rel_l2": 0.4724129852921303,
+        "std_rel_l2": 2.0592739901391965,
+        "mmd": 0.6166207286319885,
+        "swd": 54.080451571118694,
+        "spectral_rel_geomean": 0.5465439540349204,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_91": {
+      "a": {
+        "mean_rel_l2": 0.49008716921978035,
+        "std_rel_l2": 2.356493859870852,
+        "mmd": 0.6294785606133281,
+        "swd": 51.8322523012996,
+        "spectral_rel_geomean": 0.618834552712321,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_92": {
+      "a": {
+        "mean_rel_l2": 0.5401329546168006,
+        "std_rel_l2": 2.5200193277247873,
+        "mmd": 0.6641980271937092,
+        "swd": 56.26685810082947,
+        "spectral_rel_geomean": 0.8125065930482026,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_93": {
+      "a": {
+        "mean_rel_l2": 0.5690458452565103,
+        "std_rel_l2": 2.2486176808708023,
+        "mmd": 0.6464595875718127,
+        "swd": 53.42452765033232,
+        "spectral_rel_geomean": 0.4948797961890754,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_94": {
+      "a": {
+        "mean_rel_l2": 0.466184420157702,
+        "std_rel_l2": 1.8993066249187613,
+        "mmd": 0.60972193423518,
+        "swd": 52.147225396104105,
+        "spectral_rel_geomean": 0.3183358064162721,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_95": {
+      "a": {
+        "mean_rel_l2": 0.44304308279642035,
+        "std_rel_l2": 1.347718382467447,
+        "mmd": 0.5570330607912481,
+        "swd": 44.28415718562181,
+        "spectral_rel_geomean": 0.22779459843571595,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_96": {
+      "a": {
+        "mean_rel_l2": 0.427197234823247,
+        "std_rel_l2": 2.028538608549002,
+        "mmd": 0.6034381141811345,
+        "swd": 47.12968890187614,
+        "spectral_rel_geomean": 0.3753237305570173,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_97": {
+      "a": {
+        "mean_rel_l2": 0.4346711669602703,
+        "std_rel_l2": 1.6048983439538114,
+        "mmd": 0.5770590015700855,
+        "swd": 48.90295182826672,
+        "spectral_rel_geomean": 0.3075926574448942,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_98": {
+      "a": {
+        "mean_rel_l2": 0.43184055859786696,
+        "std_rel_l2": 1.9685589217040602,
+        "mmd": 0.59688299815718,
+        "swd": 49.13410146555859,
+        "spectral_rel_geomean": 0.3797172996782149,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_99": {
+      "a": {
+        "mean_rel_l2": 0.43092333976277647,
+        "std_rel_l2": 1.62086484607325,
+        "mmd": 0.5786222886297369,
+        "swd": 49.19522825060922,
+        "spectral_rel_geomean": 0.23178212815581475,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "darcy_100": {
+      "a": {
+        "mean_rel_l2": 0.45294842961428616,
+        "std_rel_l2": 1.6909050332320532,
+        "mmd": 0.5593767366774146,
+        "swd": 44.32753290172228,
+        "spectral_rel_geomean": 0.20439242080154313,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    }
+  },
+  "runtime": {
+    "started_at_unix": 1795266219.5574431,
+    "total_seconds": 94.80734120000034,
+    "num_cases": 90,
+    "cases_per_second": 0.9492935764345607,
+    "cases": {
+      "darcy_11": {
+        "total_seconds": 1.0099153999999544,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5978672999999617,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_12": {
+        "total_seconds": 1.0862719999995534,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5766068000002633,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_13": {
+        "total_seconds": 1.0052083999999013,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5651471000001038,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_14": {
+        "total_seconds": 1.087963499999205,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5627242000000479,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_15": {
+        "total_seconds": 0.9681158000003052,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5405953999998019,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_16": {
+        "total_seconds": 1.0654416999996101,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7140439000004335,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_17": {
+        "total_seconds": 0.8096555000001899,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5037412000001495,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_18": {
+        "total_seconds": 1.3531886000000668,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.616131900000255,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_19": {
+        "total_seconds": 0.772897699999703,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.49555159999999887,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_20": {
+        "total_seconds": 1.0779029000004812,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.633774099999755,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_21": {
+        "total_seconds": 1.0828715000006923,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6287180000008448,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_22": {
+        "total_seconds": 0.9515981000004103,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5407300999995641,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_23": {
+        "total_seconds": 0.9831200999997236,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5476478999999017,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_24": {
+        "total_seconds": 0.9403871000004074,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5465321000001495,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_25": {
+        "total_seconds": 1.0447917000001326,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6502522999999201,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_26": {
+        "total_seconds": 0.9528911999996126,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5661350999998831,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_27": {
+        "total_seconds": 1.1845550999996703,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6531391000007716,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_28": {
+        "total_seconds": 1.0951248000001215,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6786330999993879,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_29": {
+        "total_seconds": 1.0477018000001408,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5934015000002546,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_30": {
+        "total_seconds": 1.2598424999996496,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5880978999994113,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_31": {
+        "total_seconds": 1.0002790000007735,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5555032000002029,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_32": {
+        "total_seconds": 1.1237144999995508,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6219664999998713,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_33": {
+        "total_seconds": 1.0716240000001562,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6217796000000817,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_34": {
+        "total_seconds": 1.2926461999995809,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5791537999994034,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_35": {
+        "total_seconds": 1.0166848999997455,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5804758000003858,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_36": {
+        "total_seconds": 1.0223216000003958,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.700670700000046,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_37": {
+        "total_seconds": 0.9388057999994999,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.48421629999938887,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_38": {
+        "total_seconds": 0.799209100000553,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5080380999997942,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_39": {
+        "total_seconds": 0.6114027000003261,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.3529914999999164,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_40": {
+        "total_seconds": 0.6767848999998023,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.43636639999931504,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_41": {
+        "total_seconds": 0.6794368999999278,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.4449478000005911,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_42": {
+        "total_seconds": 0.6555818999995608,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.4064712999997937,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_43": {
+        "total_seconds": 0.6471238000003723,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.43164770000021235,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_44": {
+        "total_seconds": 0.6526668999995309,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.4120351000001392,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_45": {
+        "total_seconds": 0.6674786000003223,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.4372352000000319,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_46": {
+        "total_seconds": 0.7175946999996086,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.44465649999983725,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_47": {
+        "total_seconds": 0.6953370999999606,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.44059999999990396,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_48": {
+        "total_seconds": 0.68857509999998,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.4169713999999658,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_49": {
+        "total_seconds": 0.6005460000005769,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.3862483999992037,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_50": {
+        "total_seconds": 0.6033411999997043,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.39488970000002155,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_51": {
+        "total_seconds": 0.6725053000000116,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.44638409999970463,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_52": {
+        "total_seconds": 0.5565990000004604,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.3417352000005849,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_53": {
+        "total_seconds": 0.5534437999995134,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.37792959999933373,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_54": {
+        "total_seconds": 0.5273433999991539,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.34739020000051823,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_55": {
+        "total_seconds": 0.599088799999663,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.38365580000026966,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_56": {
+        "total_seconds": 0.5745292999999947,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.35897659999955067,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_57": {
+        "total_seconds": 0.5979255000002013,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.3880624000003081,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_58": {
+        "total_seconds": 0.5651973000003636,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.37140679999993154,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_59": {
+        "total_seconds": 0.5482875999996395,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.36732170000050246,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_60": {
+        "total_seconds": 0.5800942999994732,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.37805069999922125,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_61": {
+        "total_seconds": 1.1271292000001267,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7784850999996706,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_62": {
+        "total_seconds": 1.3808345000006739,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.9216747000000396,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_63": {
+        "total_seconds": 1.3911114000002271,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.9205687000003309,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_64": {
+        "total_seconds": 1.5827945999999429,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 1.0328915000000052,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_65": {
+        "total_seconds": 1.1872681000004377,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6802294999997684,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_66": {
+        "total_seconds": 1.5444569999999658,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7012662999995882,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_67": {
+        "total_seconds": 1.544880600000397,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 1.0805003000004945,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_68": {
+        "total_seconds": 1.3327573999995366,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.742185299999619,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_69": {
+        "total_seconds": 1.1511073000001488,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.607785999999578,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_70": {
+        "total_seconds": 1.1838835999997173,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5267642999997406,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_71": {
+        "total_seconds": 1.2255460999995194,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5573339000002306,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_72": {
+        "total_seconds": 1.2207382000005964,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.729442900000322,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_73": {
+        "total_seconds": 1.7578291999998328,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 1.2031001000004835,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_74": {
+        "total_seconds": 2.43155409999963,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 1.3182763000004343,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_75": {
+        "total_seconds": 2.4831858999996257,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 1.533023900000444,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_76": {
+        "total_seconds": 1.9282929999999396,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.9979078999995181,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_77": {
+        "total_seconds": 1.1875220000001718,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5919117000003098,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_78": {
+        "total_seconds": 0.9893674999993891,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7372668999996677,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_79": {
+        "total_seconds": 1.245259100000112,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6540398999995887,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_80": {
+        "total_seconds": 1.030215899999348,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7494247999993604,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_81": {
+        "total_seconds": 1.2072508999999627,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6959907000000385,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_82": {
+        "total_seconds": 1.066413499999726,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5988741000001028,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_83": {
+        "total_seconds": 1.0839480000004187,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6872340999998414,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_84": {
+        "total_seconds": 1.2105313000001843,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6825834000001123,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_85": {
+        "total_seconds": 1.1518173000004026,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6026050999998915,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_86": {
+        "total_seconds": 1.215909599999577,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6338798000006136,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_87": {
+        "total_seconds": 1.2811034999995172,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6704333999996379,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_88": {
+        "total_seconds": 1.0009731999998621,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.663144299999658,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_89": {
+        "total_seconds": 1.2268931999997221,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7134971000004953,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_90": {
+        "total_seconds": 1.1940832999998747,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7089077999999063,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_91": {
+        "total_seconds": 1.2117262000001574,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6771000999997341,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_92": {
+        "total_seconds": 1.217233700000179,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7127555000006396,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_93": {
+        "total_seconds": 0.9806156999993618,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6004947000001266,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_94": {
+        "total_seconds": 1.0284129000001485,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6356043999994654,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_95": {
+        "total_seconds": 1.0565279000002192,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.658109400000285,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_96": {
+        "total_seconds": 1.0584338999997271,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.7005046000003858,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_97": {
+        "total_seconds": 0.9895775000004505,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.5872801000004984,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_98": {
+        "total_seconds": 1.0524131000001944,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6525415999994948,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_99": {
+        "total_seconds": 1.031586299999617,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6208966000003784,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "darcy_100": {
+        "total_seconds": 1.1528939999998329,
+        "fields": {
+          "a": {
+            "evaluation_seconds": 0.6855042999995931,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      }
+    }
+  }
+}
