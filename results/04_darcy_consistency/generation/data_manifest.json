@@ -1,0 +1,443 @@
+{
+  "revision": "f45719309a0ea6500b86e6e9973c18b3ffff8650",
+  "files": [
+    {
+      "type": "file",
+      "oid": "3837a5539229123bb65a879127b039c6102a11e4",
+      "size": 16852,
+      "path": "PosteriorDataset_hf/Darcy/Darcy_croissant.json"
+    },
+    {
+      "type": "file",
+      "oid": "1410e9c3bbe480037eaa38c492fc5a5132122177",
+      "size": 34,
+      "path": "PosteriorDataset_hf/Darcy/dataset_dict.json"
+    },
+    {
+      "type": "file",
+      "oid": "16e2fcd6e9e0e55cc5657643084bee8773ec7ba8",
+      "size": 1544,
+      "path": "PosteriorDataset_hf/Darcy/metadata.json"
+    },
+    {
+      "type": "file",
+      "oid": "b998d369fb5986cf91aea8fc17e3526405f1cb8d",
+      "size": 400369456,
+      "lfs": {
+        "oid": "9d74e3d933e39c78c211f3de3bd4189f4012cb0524cacded88731fbec07a3e73",
+        "size": 400369456,
+        "pointerSize": 134
+      },
+      "xetHash": "1c3f16e4026a49fa5b4c7abc9c46a95b3ef038c85b03d9eef691516a66969564",
+      "path": "PosteriorDataset_hf/Darcy/test/data-00000-of-00003.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "2738354b91f3cf5c848c2b84b5f9c0ad4ae5fa67",
+      "size": 400369776,
+      "lfs": {
+        "oid": "94b4b515d2649bacb076aeabbbf5ab0502fb93429d1b457be610b9b0b36cd879",
+        "size": 400369776,
+        "pointerSize": 134
+      },
+      "xetHash": "1308a0010c678f331b1a21bb73cb5e509cd5ff17bad68137924d360e263ef6a0",
+      "path": "PosteriorDataset_hf/Darcy/test/data-00001-of-00003.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "236ff843c12d2b6ff7b863174059ee7815be06e5",
+      "size": 400369720,
+      "lfs": {
+        "oid": "c0cf69196146b91518d15d768a6f625cfb423736064a9772faf1dd7089ea447c",
+        "size": 400369720,
+        "pointerSize": 134
+      },
+      "xetHash": "d926eb3ff77701ca69b15360f1357fde211da76d02b4383f6581d52db82b520d",
+      "path": "PosteriorDataset_hf/Darcy/test/data-00002-of-00003.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "35d574b11602c5486bb66b0e99d48f61b6d48fc2",
+      "size": 1994,
+      "path": "PosteriorDataset_hf/Darcy/test/dataset_info.json"
+    },
+    {
+      "type": "file",
+      "oid": "6688c32c9e9b57f5e1a02923456ffe1740ade621",
+      "size": 368,
+      "path": "PosteriorDataset_hf/Darcy/test/state.json"
+    },
+    {
+      "type": "file",
+      "oid": "d97699c2dbfc1ca015913914f02d94814d999671",
+      "size": 133458816,
+      "lfs": {
+        "oid": "9ccbddeec4fc9233f92786b47250b1234256629427af15bf96c03a648f0aee18",
+        "size": 133458816,
+        "pointerSize": 134
+      },
+      "xetHash": "fceb1a4db9c20ff3fe56af0d68c8e6041f48ae87c2961075b76b9a9f84c70f27",
+      "path": "PosteriorDataset_hf/Darcy/validation/data-00000-of-00001.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "561915f386ca58764c64b580632a7a5ae2007de6",
+      "size": 2003,
+      "path": "PosteriorDataset_hf/Darcy/validation/dataset_info.json"
+    },
+    {
+      "type": "file",
+      "oid": "58992dfa61be3e6b1525e1216b1df4ef71c7496f",
+      "size": 250,
+      "path": "PosteriorDataset_hf/Darcy/validation/state.json"
+    },
+    {
+      "type": "file",
+      "oid": "d32c8a26e0b8ee8d15f9b125926dc35d35e8afbb",
+      "size": 18981,
+      "path": "PDEFieldDataset_hf/Darcy/Darcy_croissant.json"
+    },
+    {
+      "type": "file",
+      "oid": "b6bac998338a5a69203b9551113b5dd4e76ef058",
+      "size": 487418216,
+      "lfs": {
+        "oid": "40af41c32fc6acfe831f9708afcd07bf3b43857a9520b381035661eccdf2a913",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "b5b5419afad986da57aa35455cc12483fcb010f9f9e50404f543f3e61bcc6238",
+      "path": "PDEFieldDataset_hf/Darcy/data-00000-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "6e756925163805317a07573b923b004177ca7bdf",
+      "size": 487418216,
+      "lfs": {
+        "oid": "98087e67bd1e3d85b5d2053746327d0fa370da1dcb2c1b3ab11abe9aaf28bb54",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "4603caaefc3fb511f565777cd1711e2d3bd28d86182f0cb80297b4da11db54c3",
+      "path": "PDEFieldDataset_hf/Darcy/data-00001-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "30130e1669ed8488e9fc610a1f3992314b938f91",
+      "size": 487418216,
+      "lfs": {
+        "oid": "97faed60e246d63e12017823460c8821e3dc6f56ab5588db6c045daa0888df57",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "a667a1f18673e72a16d99576ec7aceb9f79e40fcb87b970b4ca4584c841a1120",
+      "path": "PDEFieldDataset_hf/Darcy/data-00002-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "6ab1c39a98b25a5c2ff5dfe0b726958c252b4b4d",
+      "size": 487418216,
+      "lfs": {
+        "oid": "d6834778ed98807af9818a3e8faa9cdf5ade6ab510bd11f16728a0ae3935b2bb",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "e461e35c07f48a3edab6232adb875768e28c3c0f96b7a85b0a0c68bad8bbc623",
+      "path": "PDEFieldDataset_hf/Darcy/data-00003-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "398e5f02b51f9df6bf7042a3d47d15beba722692",
+      "size": 487418216,
+      "lfs": {
+        "oid": "74beb8b58adffb9297c2dd584b196ab13f66d8e4de381c4fe3024622b9f9ae5f",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "aa2978cea30b8696e7dafbbf276ce3ba847c69a604647caf48bf2bfb025c2098",
+      "path": "PDEFieldDataset_hf/Darcy/data-00004-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "1f8f6dd746545a99b880feea63b9c8af1883f0fd",
+      "size": 487418216,
+      "lfs": {
+        "oid": "8009cb8e4f6c0b81557b49d1e4390e2c614f59141af3b723dd997222fa9c9df8",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "6312ec056c37795637073a7c472b32741e07febad3dc7ba24f89ed811abb0d01",
+      "path": "PDEFieldDataset_hf/Darcy/data-00005-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "42798a3c8eb0fc592765559ca9efd8f9c77ead95",
+      "size": 487418216,
+      "lfs": {
+        "oid": "6c3542e11006afa8929b85ebd3e69d0ec2db6b1fae2e2cde19164bf89bf44fa7",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "1f1ee908a3c01ac0b9e11d4976ca122bb5883456c81e639232f2dec143343989",
+      "path": "PDEFieldDataset_hf/Darcy/data-00006-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "1f515a04ef8ac40a2db3ba39b4b1e78b7968ffe4",
+      "size": 487418216,
+      "lfs": {
+        "oid": "2e7e94902d5dea6e9316ab6c8d90efb9b5388316b64c7762849f7ee68bfa1abf",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "ff49e080a0fc20d4c78f488298507e507166f56afffe7f439334736e9c9e62a5",
+      "path": "PDEFieldDataset_hf/Darcy/data-00007-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "2a93355727c3e50a963861c25661005bcd01df49",
+      "size": 487418216,
+      "lfs": {
+        "oid": "b95a68f98eeea3f826ada9176a111feea5acad031950fa44c98676bac546c0a6",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "12a6598a924ef6ef4a54ca71f9d4a3e6c2f4724c4ad2b40250b5a13487184656",
+      "path": "PDEFieldDataset_hf/Darcy/data-00008-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "32015cfb7a82d31ea660938d19b5d12f9f2f81e9",
+      "size": 487418216,
+      "lfs": {
+        "oid": "7a1f053a347f46cc7b93e1bdb8c9cb28fcf6733e6a2aab45059224a4963bae92",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "c08301d3f79d798a05137b064a49cb1957ffd0ffb5c1e302d4663192196371d9",
+      "path": "PDEFieldDataset_hf/Darcy/data-00009-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "70ff08999e6c8bd9ba0a7e96e7bf50dbe904c795",
+      "size": 487418216,
+      "lfs": {
+        "oid": "1f6d80f12042f812f7040fc170267a90724ab498e33549c125fdc9127a19c988",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "54d84e7be78818bb66b43aae98b7f9cb555cfc7bf24106d5e0fdc0df95e1a3b7",
+      "path": "PDEFieldDataset_hf/Darcy/data-00010-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "b76529f5aa206add22b9c866279c16c826ec305d",
+      "size": 487418216,
+      "lfs": {
+        "oid": "eb8afcc6e49911c3b7bb53dbc098d8709096bbe05930622ce04ed0008e366148",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "532649e4b255703dd3bda1b4950d8f463d66d2710eb10aaa3afe512a80b699c3",
+      "path": "PDEFieldDataset_hf/Darcy/data-00011-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "81af5b288665f923ff834097ffa7e86e0fe35e19",
+      "size": 487418216,
+      "lfs": {
+        "oid": "81c7df7be308adb91013b2aeeff303f18132436476285a06e2d67eba3caa476e",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "e6aef42ce6a25f080135abebdece57fe09137216b3f2f71c0b704cb7ea617e0d",
+      "path": "PDEFieldDataset_hf/Darcy/data-00012-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "5d0a0327156f01d8bf9021863d1b3dadbabcbd72",
+      "size": 487418216,
+      "lfs": {
+        "oid": "a9a6f7103b86d66853b52c6ac69be5706b5edb70e6e9e95166e620d036f636b2",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "34ffe6932cec8af064ddd70478636eac81ee0e20a4a607d91a111fba7a8d9cf3",
+      "path": "PDEFieldDataset_hf/Darcy/data-00013-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "2399cd31b6b4f2df1f79c4aeaf9c0fd9b529cf22",
+      "size": 487418216,
+      "lfs": {
+        "oid": "d4815404a640a9bb2816c88f71d8a1104e16b156def25cb42a3eba77ec6a2fa9",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "737ac49d5d458a0c3c1d4e403cfb97936212adb48d1325ce5801fbc73bcc56bf",
+      "path": "PDEFieldDataset_hf/Darcy/data-00014-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "fe49b4628af9d429004492637707ad65e756ea0b",
+      "size": 487418216,
+      "lfs": {
+        "oid": "32bb0e7f3f22b05c0dbc36c7aeb307fbda09efad6bb8025d97aaf91d7b53121c",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "42b6865f1f59fbb7554d3847e9a73d77c3867f3ba7c641eaa8ce43318ce8afd2",
+      "path": "PDEFieldDataset_hf/Darcy/data-00015-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "f27b53371974ffbe000b5d6c7f0900bcd9ae8a3a",
+      "size": 487418216,
+      "lfs": {
+        "oid": "14264c639fc2dfcadd9c7d2ae926db65533115fbaf424613ff2abd462113619b",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "ad08e75e72966b179daf2ddebb26522869840ae646bb06b253e5f441355b9f1f",
+      "path": "PDEFieldDataset_hf/Darcy/data-00016-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "da3037cc758935e926a7ada65a208ef3b8dc472a",
+      "size": 487418216,
+      "lfs": {
+        "oid": "0ea77b1f174ce591c797e6c565ed344f9c916cebfc490e9e16bb738df0c9efd0",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "ca637223ac750a7b6dec1f3a9349ca9f1cc8577dd3e6bcc96e2c5ad40411b9ea",
+      "path": "PDEFieldDataset_hf/Darcy/data-00017-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "8cf6f116ca6d66ab8230ad6a69e49dc8a010e5cf",
+      "size": 487418216,
+      "lfs": {
+        "oid": "c6ab03147abb7df5903f4d09f4005e2aa68215a6c341a7787232f20ea01f9b0e",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "15738abbdc9e716ca622fa5475fa5679278ca36c67683221fbf93396c227b4f9",
+      "path": "PDEFieldDataset_hf/Darcy/data-00018-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "60e08af41bf8f95a5819d2cdfb9d8dff62479c88",
+      "size": 487418216,
+      "lfs": {
+        "oid": "3ec36c8741907d7b2bca3e0459d9b80ea906943fd29927ac2ad749b8cfc99db2",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "b9d522b2b83fb7011f10a1fe09a170d6c9ae79125c84458a9fe03e7043865010",
+      "path": "PDEFieldDataset_hf/Darcy/data-00019-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "4b33c7d7d7ebc124f6a078f5934724ad557de8f9",
+      "size": 487418216,
+      "lfs": {
+        "oid": "33bd595da027330f6d367e23efcf72f3b17488011d565a4fe74e2cd017e587ab",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "964a43159a788c3643353c8b1570c8c3d2be136f2b0a47333309350d58919041",
+      "path": "PDEFieldDataset_hf/Darcy/data-00020-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "011c652792ada1b3b9de2cf9d6a5e7048060d2ed",
+      "size": 487418216,
+      "lfs": {
+        "oid": "1a54c0af98add05a1a7169d211dfcdf1b8802067142c18fe278da73fcfd31054",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "cb6b72078b93223d7ef29dc7fe96d7617a63f648d1a8d4817e790bbd1e92a45a",
+      "path": "PDEFieldDataset_hf/Darcy/data-00021-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "6c57f8236f513fa570b9d71b28b184d3159f7e88",
+      "size": 487418216,
+      "lfs": {
+        "oid": "2a72afa56aaaa2e4f7f36f9d195df3655512154737b70f91d2135dbb55e78a2e",
+        "size": 487418216,
+        "pointerSize": 134
+      },
+      "xetHash": "c54af992b2d97aa2a40d7a0f9c9b9b460dc6b736034effc082fa0c114037d733",
+      "path": "PDEFieldDataset_hf/Darcy/data-00022-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "0e555cdc24375651abbbabcad1b7fcc5897c9d60",
+      "size": 487155032,
+      "lfs": {
+        "oid": "3c8ba8578e21c1bb23b0fb33cc1bec465c2ad0571e6e82c379467320c2cf853b",
+        "size": 487155032,
+        "pointerSize": 134
+      },
+      "xetHash": "dbeb61152d7a902edbda2cb764c76f2738f944a08edcedeb70bfc0a22f7f2235",
+      "path": "PDEFieldDataset_hf/Darcy/data-00023-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "12138d193dac65ea6c4178117af286074012fe05",
+      "size": 487155032,
+      "lfs": {
+        "oid": "32ce3941da4bafef73ef15d37098289e570be7bd8c678601778c4f5bb5ba674b",
+        "size": 487155032,
+        "pointerSize": 134
+      },
+      "xetHash": "6b8f99795f198e67c9e7e954a08e67105d4867ccf9602437f25d94706646079e",
+      "path": "PDEFieldDataset_hf/Darcy/data-00024-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "d9883a960d7b377ac2aa682da586fe5fd6ed00a8",
+      "size": 487155032,
+      "lfs": {
+        "oid": "e09d36ff567e9440fd237afcf6c5a6a170708326c70c8b61e57cb83c242e993d",
+        "size": 487155032,
+        "pointerSize": 134
+      },
+      "xetHash": "2c0621d988ce8f2f8f6ba1b1b1ba0f7b562b963b43ab866bdfc96de1c4ab29db",
+      "path": "PDEFieldDataset_hf/Darcy/data-00025-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "c34bb66ae765a3698ec3b6f819924fd489b41547",
+      "size": 487155032,
+      "lfs": {
+        "oid": "723d2492c39de223d492da7635b8939d2976b699da05b05186c85c9eabb226dc",
+        "size": 487155032,
+        "pointerSize": 134
+      },
+      "xetHash": "4135c24885ab92088157c89a77fad84882cfba4e726e3442fb5c942cd8aea519",
+      "path": "PDEFieldDataset_hf/Darcy/data-00026-of-00027.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "f8ef1151b83b6dec6e64696aefe385eae2d4341c",
+      "size": 1129,
+      "path": "PDEFieldDataset_hf/Darcy/dataset_info.json"
+    },
+    {
+      "type": "file",
+      "oid": "1a52f13aac9a61c34f761f0fcda96bcccc9feaf3",
+      "size": 718,
+      "path": "PDEFieldDataset_hf/Darcy/metadata.json"
+    },
+    {
+      "type": "file",
+      "oid": "f3ca0b8b62a5888ac6d3d0f8d9ff63775e29e891",
+      "size": 1784,
+      "path": "PDEFieldDataset_hf/Darcy/state.json"
+    }
+  ]
+}
