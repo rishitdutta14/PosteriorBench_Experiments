@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-22",
+  "python": "3.13.1",
+  "syntax_files": 61,
+  "cli_help_checks": [
+    "experiments/01_spatial_dependence/poisson_reference_correlations.py",
+    "experiments/01_spatial_dependence/poisson_patch_correlations.py",
+    "experiments/01_spatial_dependence/poisson_smooth_fields.py",
+    "experiments/01_spatial_dependence/poisson_metric_detection.py",
+    "experiments/02_sensor_placement/presentation_analysis.py",
+    "experiments/03_posterior_geometry/esmda_paper_comparison/run_comparison.py",
+    "experiments/04_darcy_consistency/darcy_esmda/reproduce.py",
+    "experiments/04_darcy_consistency/darcy_pressure/solve_pressures.py",
+    "experiments/05_ltmi_recovery/reproduce.py"
+  ],
+  "analysis_import_checks": [
+    "experiments/03_posterior_geometry/esmda_paper_comparison/analyze_dimensions.py",
+    "experiments/03_posterior_geometry/esmda_paper_comparison/dimensions/plot_pca_slide_maps.py",
+    "experiments/04_darcy_consistency/darcy_pressure/analyze_pressures.py",
+    "experiments/04_darcy_consistency/darcy_pressure/plot_results.py",
+    "experiments/05_ltmi_recovery/posterior_analysis/analyze.py"
+  ],
+  "evidence_validation": "tools/validate_results.py passed against committed tables",
+  "summary_figures": "Five compact summary figures regenerated from committed tables",
+  "final_sensor_sweep": "72 exact-covariance records recomputed, through 100x injected noise",
+  "source_snapshot": "Vendored source text matches the pinned checkout, with CRLF normalized to LF; byte hashes retained in source_files.json",
+  "full_benchmark_regeneration": false,
+  "environment_note": "Import checks reuse the existing local scientific environment; installation into a fresh virtual environment was not repeated."
+}

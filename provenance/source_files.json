@@ -1,0 +1,842 @@
+[
+  {
+    "source": "PosteriorBench/posteriorbench/artifacts.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/artifacts.py",
+    "original_sha256": "741e74807ca42dd815ebfb1252dfccf5a6bdb0bf53c364779c3e62262e643170",
+    "packaged_sha256": "1c5bc8f8e40ecfdb39cb73381febe0059437c7aa4d81e1b49b531e748bc3715b"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/compat.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/compat.py",
+    "original_sha256": "abd98802d4685de3d31b18b05ea281de25dbc45a5ac9a597b2051cbd3058d869",
+    "packaged_sha256": "81f5c806bacb9b3f87c6dd036c194675708a1847e7e1f51b5e4e937ac70e05bd"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/evaluate.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/evaluate.py",
+    "original_sha256": "366320a0ac29e8ff6e3a567d756396583fb1ca9fb59fbd2cd599cc3ed3ced6ef",
+    "packaged_sha256": "ee3f7cf164bdd494f702af46c4213499a657589de2142c68dcdbf0f34a43f770"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/generate.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/generate.py",
+    "original_sha256": "01f2f179cd8c43b8f66a6982fac5e7d76dad38b548624bda6fd14f52eb78f49f",
+    "packaged_sha256": "e32b30c27c2ce8dbc955f45350c0b298dbf604078b98799ab4ef9fb4b002662b"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/io.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/io.py",
+    "original_sha256": "734d2e50df21fc1b39b82578f7657c4e200f7a8a62640f68bdea0293066f317e",
+    "packaged_sha256": "9dfb6333e6f5bd97d7be7ef2373aeebacacbb149c3e654661bedfbd28042bb19"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/normalization.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/normalization.py",
+    "original_sha256": "ebc7a98b72565fa4e6a06744ee066a74d4e63a8310ddb967f79a005672e651b5",
+    "packaged_sha256": "65d8c3b00f33d4a833f96369a44b861b0c95b4ce67ea66740012484ca6682fc2"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/postprocess.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/postprocess.py",
+    "original_sha256": "e9e623211d5810a114acbaa106838a0b92a8c97ded56f0040dc0be16392b73b4",
+    "packaged_sha256": "a6aae1536612a1b5796a9a993c161c398bf96395e82ebd2e08c7c3c24b5d833c"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/spatial.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/spatial.py",
+    "original_sha256": "b26aaded9391dde41ebc7ca4e68d5fba3a7c30f30d37af59326c2b8694cf1b3e",
+    "packaged_sha256": "d202cf204749a14750e469995d98785fc1a7c79411a3df845152b3bd902a0585"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/training_source.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/training_source.py",
+    "original_sha256": "ec7da03a5916d0520da5469862eefbd5c715ab4e579bf9f7fa61482aa6d20ade",
+    "packaged_sha256": "92fd6c491a4a37b0a7fb75b34df074573b8516c77aa87150fe64b7516189f57a"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/visualization.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/visualization.py",
+    "original_sha256": "c9d5b13dd66768ebe57436c78edc086e3b2f95f7236293964756333e8740f24b",
+    "packaged_sha256": "5f9cbfa81ca113dd2101164a1335b9cafaa906b964b450c30226a2cf74f00a91"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/__init__.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/__init__.py",
+    "original_sha256": "1392de2c25b2bc12aae84bf8c82cc271198f51797bb7b815aa954b64fb1a6aee",
+    "packaged_sha256": "f266e1d6b9cb5e60294289177aa5d01f649223a26bb3f15dde251e0ff96012fe"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/datasets/base.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/datasets/base.py",
+    "original_sha256": "a532dbb0336d421feb0df57c581f70a7234371f2721bb1d93d28af7aa993e1cc",
+    "packaged_sha256": "181531e2999785f1a5d99363bf9514e6f2950907d1da03b396a8d5f4d4b4f274"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/datasets/ccs.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/datasets/ccs.py",
+    "original_sha256": "738c601de3e7d6b08d56da4e827f0542e251dbe3f1b944db0329c84454f984b0",
+    "packaged_sha256": "3cd427b7f665b0eb6028ef18c9154f13562b67c4db603f49f25f2372df873d25"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/datasets/darcy.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/datasets/darcy.py",
+    "original_sha256": "186d1308392e72fdcc0bb4e92e809fff0f7fbad3650f6f889b5889fcb1d5199a",
+    "packaged_sha256": "3bc04b02069a794bd049dd2367d835fcbc45d49059086ea33a33de1bd6bebb12"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/datasets/light_transport.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/datasets/light_transport.py",
+    "original_sha256": "06bfe08b644ddee20dd5e8a787fde2c8bdd64b4ab8cbb0438ff2a2f9866872bd",
+    "packaged_sha256": "b6dc1558c0db69bc25c269ad89cbb82bfea74e38be763e2474b009f232000875"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/datasets/poisson.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/datasets/poisson.py",
+    "original_sha256": "77df904795378b8d0fe82482d15f25df1e83619faf9fffceb4cad6ee38bfd126",
+    "packaged_sha256": "e0aa9ae9ba2869c598997d43ecb8fe52c17569b1d2956397390807c240296d68"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/datasets/risk_quantification.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/datasets/risk_quantification.py",
+    "original_sha256": "cf7751a5384c4ddfed3ab11203d5c93ba87e3d6dbb55395858a17929660d9a75",
+    "packaged_sha256": "79018f133928d68a5f2150e80e9b0ead81aa2bf805f70462f8f136301814634b"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/datasets/__init__.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/datasets/__init__.py",
+    "original_sha256": "d6dc68089097bd2b413ddf6f85a110b0f9a4b7ba2df84afde13a2f2bedf0b461",
+    "packaged_sha256": "84fedaa0f424eb403df70f444d76f4114b1eba31c3147163359162089ba8211d"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/evaluation/metrics.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/evaluation/metrics.py",
+    "original_sha256": "71e298088a2c590e1197c038f7f0389f624d1d5f7c1558f09b5315d3e3a71c8b",
+    "packaged_sha256": "823da0e806aace72c9b0e5ee01164fdd7430b6d535765b73d5706a5d8011b247"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/evaluation/__init__.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/evaluation/__init__.py",
+    "original_sha256": "f4ad5021bd7c104bdb472220d75518525eafbf697c4d6aaa16ae032e85449429",
+    "packaged_sha256": "56f14144e2f9718c56c0d1411c141f2268a7232f7534b0c108d266a42bb73e0a"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/base.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/base.py",
+    "original_sha256": "28d965306d8d9a421ec4f101147ec9c33a34210b974ee468eeccccbc1b33e54d",
+    "packaged_sha256": "8acefee4087db6f7966fc481608863004dc4f4b7a1dc066d765d738834509915"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/ddis.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/ddis.py",
+    "original_sha256": "9aea29a49a16d24bb7566055fa838d83fd92e3704d367a1b0f1b9a2e384cdc51",
+    "packaged_sha256": "6b5fee03d886d34a321adc0efb536bfcd8be36a6f95cc7a477d5f80c0939ae68"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/diffusionpde.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/diffusionpde.py",
+    "original_sha256": "7247d28ed28ac60ee02c124d885ace70b2e099e837d023253d06a6c59eedc6a9",
+    "packaged_sha256": "833a28f9f5c31cd8add58f614dae2c4d2e33a92a9ffce18629dc88c4442f963a"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/eci.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/eci.py",
+    "original_sha256": "a22b0726ac9faa524d69cf08976a3c896e519476e6a3e3c967cccdf77869f223",
+    "packaged_sha256": "17b46e473c4c055280a8f8a4dfde89ec717b5d55efef625de0bba5201bbb71ef"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/esmda.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/esmda.py",
+    "original_sha256": "ca1bb1a3de6dfaa848501bc6fedd9d2069fa2f304ddc94169ed93d0a89132466",
+    "packaged_sha256": "72e27770361e02575e356c647a81f3802dbe11588606806f098d383b9a996279"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/funddps.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/funddps.py",
+    "original_sha256": "c0b27ddb804e1d7267581ee328128f2aac9735da9b4d3dc03a18790df90ee7d5",
+    "packaged_sha256": "db3fb3bfc4d87ab5021ff0fff4296e52f9fa0235cba4235f2329a50ecbb13f53"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/fundiff.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/fundiff.py",
+    "original_sha256": "b6ad67364992cb614007093c57dec7b112faca2188104de6b6dc2fc7449e00d5",
+    "packaged_sha256": "072c3a281b4ae053b4bdc25f4a4f38ee7cb61461862da28b91d273c5aa4b02e2"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/fundps.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/fundps.py",
+    "original_sha256": "db421701c4fdaf83c79c75f88b92d9765a83a3b86cc3cd346853852253086606",
+    "packaged_sha256": "a96f1b60649d6981c682bf52c6b0c8ee53d23761bd1fb378e95e5561617a1984"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/mcdropout.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/mcdropout.py",
+    "original_sha256": "65417925543d359688e42a94d91946252f74966d27353b9f2768f0fa66f5a922",
+    "packaged_sha256": "f327689bd9aa16e03ca865852ec283b7f95526777053b9ddefa3386f292710c8"
+  },
+  {
+    "source": "PosteriorBench/posteriorbench/methods/__init__.py",
+    "destination": "vendor/PosteriorBench/posteriorbench/methods/__init__.py",
+    "original_sha256": "5cdf1b8d1abff1191b5a2a1a62336728bf7b67fa2cab6c835e96e2a32bb0c468",
+    "packaged_sha256": "434a9127219ac9a00f456c5ede06e50c8e30039f23e1283c81d9f78f9a5b3463"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/ddis_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/ddis_ccs.yaml",
+    "original_sha256": "34c44696b50ed61cc90a1c1cfb04f8593bf5b05b15f90c60cc862e397a56f535",
+    "packaged_sha256": "188e325395f4f3aaf23574a13e4d6a4e60295c07c4bc394c70bd485de456ffff"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/ddis_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/ddis_darcy.yaml",
+    "original_sha256": "de8d0189055b94d34584c39768101ea13bfbf26523507ff233bf1d6ce7b51d11",
+    "packaged_sha256": "0b2212780c23e4386a0c96b9fde32c53e01b347a20b24eb4a7b3987fd04cd80a"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/ddis_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/ddis_light_transport.yaml",
+    "original_sha256": "0e7ad3ccb14f4e6bd9de34d12b3a9721968df6c99034c80b7a27ef136cb7536e",
+    "packaged_sha256": "f157e98aee381fdd59a2fccbb72adfa6aa45ade5a2fa7b8c9574d6e315460d54"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/ddis_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/ddis_poisson.yaml",
+    "original_sha256": "6effcc24ef5d02dea10a6dac5d31977613e6049083a5f6b608b7ecdfe1a22ccc",
+    "packaged_sha256": "c6f3bfb93ede53e70f709eefdcef7e041a0d66f727dd04e1e094c13d685132f7"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/diffusionpde_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/diffusionpde_ccs.yaml",
+    "original_sha256": "d6b11b671c837d3e1e23eae97eee7a737efe5c65280e934ad571d30f10d15de6",
+    "packaged_sha256": "9f6426866ebc944c505f6ac3a95436cfcaea9ccc7563882b464e26adf3157f06"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/diffusionpde_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/diffusionpde_darcy.yaml",
+    "original_sha256": "0e42e5ee8ff266b38004d8a12add235430fef1669d2d796db4f91832a6b0b53f",
+    "packaged_sha256": "4abf699ac44832e3a9359e86c353d5849c3ba824f15b46d890f48ccd0088300c"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/diffusionpde_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/diffusionpde_light_transport.yaml",
+    "original_sha256": "bf3062926c322e0f6a150dc1ca3999ec331c0f87f5bcdda3fbfb1d604fe3100e",
+    "packaged_sha256": "a90ca8d9fa4ee0d52d44087b52e948f4048188a84a9fa6cdb643447408c47ea0"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/diffusionpde_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/diffusionpde_poisson.yaml",
+    "original_sha256": "41c79a0413a84f9974a2072b1a998eb87bec0ca43a8ccb98c48549cbc7bd5c24",
+    "packaged_sha256": "0d94a0b50299bf8a72692df72cf8d2acb2db6f85fe73d386dfea73077e97e772"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/diffusionpde_risk_quantification.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/diffusionpde_risk_quantification.yaml",
+    "original_sha256": "ce8e6f9dfadce697be3a56e77d260db5965e058720bf34d85006df3289e6a547",
+    "packaged_sha256": "48ac05ac75cf42d1f18adfe13cb37a7a299c925f48368dabeb03f479d13bd388"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/eci_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/eci_ccs.yaml",
+    "original_sha256": "a0b20ca6dac6f880e59dc14d8f2c57985bdb2effbbc5f447aed87b9cf209a782",
+    "packaged_sha256": "6dc5223c0697c270ee53f962abdf2a866f63221416db2a6f339eae320d7b02a3"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/eci_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/eci_darcy.yaml",
+    "original_sha256": "41b9e9488f666227457126e4eecb9f4caa047f5c2bdb0105dfd64abb9a451ef3",
+    "packaged_sha256": "99f7e9b18cc6c84f89e16d77649abf7fec2f9e300d29358cf59fcd8de2c9cb10"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/eci_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/eci_light_transport.yaml",
+    "original_sha256": "3ff9a7855d431b39f807c12f9a58f77c6b3207a1cfa2a5d626bc1b858c6db539",
+    "packaged_sha256": "ff290030b8c73f508430455f1dc251e2c8e08570238191004f3e518b32f06229"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/eci_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/eci_poisson.yaml",
+    "original_sha256": "f0a9f572f511618c41d033d2c0f1b544f5eb02a7173a688632ea9550ebc97555",
+    "packaged_sha256": "b04effbc3327b5741ab4510aaa060cd82b2437d4b4d969213b721a18a316a77e"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/eci_risk_quantification.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/eci_risk_quantification.yaml",
+    "original_sha256": "1ffa47f702d1467e9431ac9d7e34263cbaee679ad614cbd30d0887a8835bb496",
+    "packaged_sha256": "fa722ccfa70bc8766f322406dfb6cbd6c5af335d30ef8bd304f1f400e3a4b500"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/esmda_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/esmda_ccs.yaml",
+    "original_sha256": "4f72e5f16e81ecbf548e37d4c33b3ae06c1e0ece0ad1bc3d5859b789aaab4216",
+    "packaged_sha256": "06fe7db849612a838d247a44933fe4a8f09de02f98c0b6d94a8a025902f4fd24"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/esmda_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/esmda_darcy.yaml",
+    "original_sha256": "f744e6155fb4903dd3302c19e4b7e4435d1789985198f7d29ae133ca298a2be3",
+    "packaged_sha256": "a2b4e991040259d64718631872df2ddfc4f0752cdd2a85334ac0b0b40b0b2cb5"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/esmda_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/esmda_light_transport.yaml",
+    "original_sha256": "3d14cc07381587d549805368c9ac00d04eeefb2b25d0f2beb96bfb95853cb046",
+    "packaged_sha256": "c0f6f8fa69aaec671f70ad4a5861fc8ad03ea6b82adc83a30839d71623a5f19f"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/esmda_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/esmda_poisson.yaml",
+    "original_sha256": "20314658941a22774ecc2dc618492b1d658beaf28454fe549169afa2f0905618",
+    "packaged_sha256": "3663fef02c5d447653079150541d988866c5368da5a1f04c24afc5f29784db4a"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/esmda_risk_quantification.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/esmda_risk_quantification.yaml",
+    "original_sha256": "1ac55d1cf36ac89f4669225edac4ae8726fa945ea70e909f56cbe86a4a9f82a6",
+    "packaged_sha256": "92af21dbc98570027a509ad487a9fdb1470f7e2fe0caedcec288abe39adedf14"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/funddps_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/funddps_ccs.yaml",
+    "original_sha256": "7f4039d0a8e0f6378c1d9408e95d66971eadb89d0f0ce4059f2967e07282a40d",
+    "packaged_sha256": "a09d32f2b2b23352b51cf003e4c7245e11d3629bdc713fffcfc644d5ac60d130"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/funddps_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/funddps_darcy.yaml",
+    "original_sha256": "b1ad6ff31fdc017406a32d9a595fa9e76d55b8da04008671d3841a66014a8696",
+    "packaged_sha256": "ea5915341f89de095c03ff1f18d064d7c1f82ff78e6d868764befc86c6a48dbf"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/funddps_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/funddps_light_transport.yaml",
+    "original_sha256": "d069fda2ceebd745d09b76903667919931472a4939b41c20979c7f73a71bcc6b",
+    "packaged_sha256": "7011c501b1f85e82dc549dde79d95f6ba82a065aa66e8b405e9d4194b8c0c2f0"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/funddps_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/funddps_poisson.yaml",
+    "original_sha256": "15f87063db93498fb5db95c0a9878a18eecd57e1354354d0e9958a32d31af22d",
+    "packaged_sha256": "f4bfeb76c7abbb019fcd592d4e072ac7e15341352b06704aa3d57849dd120556"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundiff_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundiff_ccs.yaml",
+    "original_sha256": "b3f35bb7a3bbddcf23275a3c41e99a8d10da0eb96635ce61608d7d59bb2a72e0",
+    "packaged_sha256": "b170d56ac6d2612bb9ce674f1b5eac37bf23eb02116a9fcb134a955d20896228"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundiff_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundiff_darcy.yaml",
+    "original_sha256": "7c24bb7a922109d1bee046613e2174df0986ae9113794d6d1e909a0c9a558acf",
+    "packaged_sha256": "2e511dcd773164c0378824a8b2e6cecde69c6b976a5f7378d97a16038be6d603"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundiff_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundiff_light_transport.yaml",
+    "original_sha256": "71987da5c86702fc8dd647b7ac002c71a58e8e42a7ce64c7ffd807980f8b0da9",
+    "packaged_sha256": "88373bda4560b7d0148b6c411a24b558f1f41bdab89a44d7f2f0f076312d7f7b"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundiff_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundiff_poisson.yaml",
+    "original_sha256": "31f35a9efd3ca830ce228e09ba3c4345c4bf67ea3fcb2f3980664c03c6bdb74a",
+    "packaged_sha256": "42db0676e9236d5bda56c07ca9aacb15f87943829e921210d5f6ef554dc2cf47"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundiff_risk_quantification.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundiff_risk_quantification.yaml",
+    "original_sha256": "c5bc085599db88d3bcd01a42edd02bb660ec35069e6d3f45fea803be65d74e96",
+    "packaged_sha256": "f4a81187a2a6dd732d06d95a5dd0e58d78df6f8a064f536f64dd86c074cc4c44"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundps_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundps_ccs.yaml",
+    "original_sha256": "1137f430dcd2d9ed744ce78eff58987183cfc6814a3fb7e6d0d28de0fc36db04",
+    "packaged_sha256": "8c893387241febbfa5782f0794c5001bfd3d1252d6d8d4ca339728f5feb1b4d2"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundps_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundps_darcy.yaml",
+    "original_sha256": "506708a6e4bb12f4d2b47cb06033f31b7ce3a5143ab21f4544b6ee16e1f7238a",
+    "packaged_sha256": "9c6479b1ad0e310ea3742b47987d226c605669857b0174801c91d262f41ea09a"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundps_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundps_light_transport.yaml",
+    "original_sha256": "fbfbfbba3bd22dab2c0ab19b6e78c61c8708ed9d48b5cf57dbaf18ca44224e28",
+    "packaged_sha256": "2d1e12566f916d9fef8efd0ccbf08d371af889bffc39501ff55695ab18626a44"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundps_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundps_poisson.yaml",
+    "original_sha256": "c13a2486c4fce2d79fccd0da406d73fd4fdf349cd2be757955eba1c0f8eb45e2",
+    "packaged_sha256": "49ac972e9b9d6569173d95ba54f50b2312c85d4482129363dde515740a51c585"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/fundps_risk_quantification.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/fundps_risk_quantification.yaml",
+    "original_sha256": "92bf04e37e21e547252027f136b70457f0efcdecda1b9bca1fe6b1436adc6ab6",
+    "packaged_sha256": "c6ce0cc1ef927905b27e1805cd68f7c0666c82f0c43db25fcbf5435b4d9741a4"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/mcdropout_ccs.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/mcdropout_ccs.yaml",
+    "original_sha256": "c705ad4f2def81287169d39a57b1e1cb81e62717cf3430c1c20a9bf618ad1818",
+    "packaged_sha256": "f782ac36d11f76b06dac8bee5e6a368fac15564ecd8b0dd9c89a6c0e4941d092"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/mcdropout_darcy.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/mcdropout_darcy.yaml",
+    "original_sha256": "fa5ede377aa91f441e655d74785dabd7734294a7f209d8f45bf32c13c6f7ff9b",
+    "packaged_sha256": "362756e750e3ba1648f5122f51a8271b31cf104a0347cf5bb06a0f4853f903db"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/mcdropout_light_transport.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/mcdropout_light_transport.yaml",
+    "original_sha256": "1c0d2a1fa3b47aa5c3414669b7eb89bb51c3fb31faf14fc150a33b4e379fe13b",
+    "packaged_sha256": "1b567eee81b73827b1911f96ed6ee21500e881c0c87d1b7f44b378ca78a98e40"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/mcdropout_poisson.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/mcdropout_poisson.yaml",
+    "original_sha256": "c784e0f4c19716aab61aedb23b99ff9b909d646b7c6d69bd6f3ae6de475e6afc",
+    "packaged_sha256": "2664cc09d2b46cf373ad6c363ea3c0dc54f630bbfad28bd5957458f2b32bc207"
+  },
+  {
+    "source": "PosteriorBench/configs/evaluations/mcdropout_risk_quantification.yaml",
+    "destination": "vendor/PosteriorBench/configs/evaluations/mcdropout_risk_quantification.yaml",
+    "original_sha256": "2e1d4a1c4ca4358889c8783982531412b15d65a56aa1225fe57e2e5b4bf6536a",
+    "packaged_sha256": "e1489f9759d3d9d64f85626cc20aee2d91579a3142c975ede43d6747099772e2"
+  },
+  {
+    "source": "PosteriorBench/data_generation/common.py",
+    "destination": "vendor/PosteriorBench/data_generation/common.py",
+    "original_sha256": "45156cd4040074fc3a2e544f6b1092185332fb07120247d29628ccfe63d7a53b",
+    "packaged_sha256": "8da3f1781ca29a5967cba8eff568d1d4fbd2d485f3fb94e00bbbbad5f069e001"
+  },
+  {
+    "source": "PosteriorBench/data_generation/__init__.py",
+    "destination": "vendor/PosteriorBench/data_generation/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "PosteriorBench/data_generation/darcy/pde.py",
+    "destination": "vendor/PosteriorBench/data_generation/darcy/pde.py",
+    "original_sha256": "1cb85d83dbecb209aee3cf3af4f0fb31e29fe41d03fc6348ae3bdb5d7efda44d",
+    "packaged_sha256": "9bdd9037db07a794c46b56cd07e0a7808e8fbab64b47199011208b48d8ee4ad6"
+  },
+  {
+    "source": "PosteriorBench/data_generation/darcy/__init__.py",
+    "destination": "vendor/PosteriorBench/data_generation/darcy/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "PosteriorBench/data_generation/poisson/pde.py",
+    "destination": "vendor/PosteriorBench/data_generation/poisson/pde.py",
+    "original_sha256": "97fa33883d39290bcad451da049404a28faf41a49c8497b3137bfe1f31d64fa1",
+    "packaged_sha256": "0111aebef0106998bbb1be642f27d7199786ecb302fd65ca07985803d16316b6"
+  },
+  {
+    "source": "PosteriorBench/data_generation/poisson/__init__.py",
+    "destination": "vendor/PosteriorBench/data_generation/poisson/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "PosteriorBench/LICENSE",
+    "destination": "vendor/PosteriorBench/LICENSE",
+    "original_sha256": "68431882ace72fc2684b5014178ee4f2b7a912c60cc8fdfb46af6f9599d8ac1d",
+    "packaged_sha256": "68431882ace72fc2684b5014178ee4f2b7a912c60cc8fdfb46af6f9599d8ac1d"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/experiments/spatial_dependence.py",
+    "destination": "experiments/01_spatial_dependence/spatial_dependence.py",
+    "original_sha256": "b0f3aef7d1c655688d3116649c856e65dceb03fe4b27dd6048f41d7d10a19f2a",
+    "packaged_sha256": "924dd3710f4a52ac97d4eedfdc17169783ee556726d48a0e10c811e7d027c737"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/experiments/poisson_reference_correlations.py",
+    "destination": "experiments/01_spatial_dependence/poisson_reference_correlations.py",
+    "original_sha256": "cef1da66bb3d0152d21df64f39c7516a7b66ef9d211ccc0612d2f6d7c135170c",
+    "packaged_sha256": "1aa659f49ba6c1b226e21f7a36009dd0f7dfe85431ac8dc8b91edf3d8ddaef52"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/experiments/poisson_patch_correlations.py",
+    "destination": "experiments/01_spatial_dependence/poisson_patch_correlations.py",
+    "original_sha256": "4f4f2d9832976e1c39b85bb39ea6130be06286bf1d888a2b6cd1038be81cffc1",
+    "packaged_sha256": "42143c12aa932b154db8c90c968b93b9f9ee1a0dd4099b33a034ac83c4aaff80"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/experiments/poisson_smooth_fields.py",
+    "destination": "experiments/01_spatial_dependence/poisson_smooth_fields.py",
+    "original_sha256": "836a9f0491a3a46b2fb1f83965eb94478057f0c23daf87b1ac75f19a70739fe6",
+    "packaged_sha256": "70fca008472b42e624144c3c65b3eb71623735cdcf3e5253afbbf72b60a3029c"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/experiments/poisson_metric_detection.py",
+    "destination": "experiments/01_spatial_dependence/poisson_metric_detection.py",
+    "original_sha256": "1fd8ea45e79f5e77c13b7daa9318d09f2fc578ade9ed0e970297f990d2d7d258",
+    "packaged_sha256": "be6cfee73142e908815eb97122e988a6c8d0a708371e914f416fc207c294717d"
+  },
+  {
+    "source": "poisson_sensor_ablation/run_ablation.py",
+    "destination": "experiments/02_sensor_placement/run_ablation.py",
+    "original_sha256": "6c35419b5610d0fe9ce222a9f2b9e13ef71387e1d830950655020d4ba216db60",
+    "packaged_sha256": "2a7d915b33da28a0fb63aa0239ca08ab45b3a8f1b9a609e5d9d630f331ddad73"
+  },
+  {
+    "source": "poisson_sensor_ablation/run_cluster_ablation.py",
+    "destination": "experiments/02_sensor_placement/run_cluster_ablation.py",
+    "original_sha256": "16eb768e15348794ecd4e062f5f32c4baf5672d9216fabb4d80413380415e61c",
+    "packaged_sha256": "16eb768e15348794ecd4e062f5f32c4baf5672d9216fabb4d80413380415e61c"
+  },
+  {
+    "source": "posterior_dimension/run_experiment.py",
+    "destination": "experiments/03_posterior_geometry/run_experiment.py",
+    "original_sha256": "6e1862b9b475f983aa01a628ceb7115b935a1fee137c21eb760aa54522889c6f",
+    "packaged_sha256": "054cba0fc337a96752c1171ed6d4f3bbcdb471a5b1456722058359b5ae6a876e"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/run_comparison.py",
+    "destination": "experiments/03_posterior_geometry/esmda_paper_comparison/run_comparison.py",
+    "original_sha256": "1a39c81a2962136a9d6cb68250959bf718fbf78185c1867a11b2cd9e2e100b24",
+    "packaged_sha256": "ccc9f98d9dac22ad10fe9435d9643acb399ed069ca9f4ff5d7dce23efa4b9842"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/analyze_dimensions.py",
+    "destination": "experiments/03_posterior_geometry/esmda_paper_comparison/analyze_dimensions.py",
+    "original_sha256": "51289d952e437d54903a7f4130342266b8672bbaffa31fffefa2103e6d784937",
+    "packaged_sha256": "a96aad37d5064ab1bc21c35ac18568de9d5042ea3cdfb0d1118d85060662ca63"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/plot_pca_slide_maps.py",
+    "destination": "experiments/03_posterior_geometry/esmda_paper_comparison/dimensions/plot_pca_slide_maps.py",
+    "original_sha256": "4c57a35c6c856ae692a96bd220d6b3b318f10a124144b3e5fe2752e863814d41",
+    "packaged_sha256": "e79ca8d106836c5b84f63b5ca350f294a35c8051152ccdb654e71355fbdb819f"
+  },
+  {
+    "source": "darcy_esmda/fetch_release.py",
+    "destination": "experiments/04_darcy_consistency/darcy_esmda/fetch_release.py",
+    "original_sha256": "15a816a8a8a3ddeb5590fa492078fea2341286de9aba796cc078cd167fc09680",
+    "packaged_sha256": "fef8e5ecda1dbac9a1833da55ed12ddd17a602c7c2e599bb6e21186ab11589dd"
+  },
+  {
+    "source": "darcy_esmda/reproduce.py",
+    "destination": "experiments/04_darcy_consistency/darcy_esmda/reproduce.py",
+    "original_sha256": "f983e89fefec3446bb8a0231d90670e36e040e179bbd417801065ef417ad253f",
+    "packaged_sha256": "e6f6b0dea9b2f2d99952306a9d9c1b3660ae4363098141eedf61484a657962dd"
+  },
+  {
+    "source": "darcy_pressure/analyze_pressures.py",
+    "destination": "experiments/04_darcy_consistency/darcy_pressure/analyze_pressures.py",
+    "original_sha256": "820b6a70bdb6be3cd25b31af6bb4f549c270c498a1a0966d8116d43de3f3a516",
+    "packaged_sha256": "98b948963b5f9f46ca2fcde1ac3bcb075b88329bc7bd607a65161fd21ad1e03f"
+  },
+  {
+    "source": "darcy_pressure/darcy_grid.py",
+    "destination": "experiments/04_darcy_consistency/darcy_pressure/darcy_grid.py",
+    "original_sha256": "9b7ef05981387185102cf6771560009ea44597858a0765587bbf751e7e0a9b48",
+    "packaged_sha256": "e977c5dac4aac86341cf39f27ddf9c31ae0eb622524b2d350d1fc75f143d5c5f"
+  },
+  {
+    "source": "darcy_pressure/plot_results.py",
+    "destination": "experiments/04_darcy_consistency/darcy_pressure/plot_results.py",
+    "original_sha256": "ce12ba5d0c197622aa5e439ac3a9dea776bbb858b908e22d045a2042d223272e",
+    "packaged_sha256": "f87dd30d3fcdc0c1627fd7e2c67eb22e13a1af4db86367b68081dc1d5c347016"
+  },
+  {
+    "source": "darcy_pressure/solve_pressures.py",
+    "destination": "experiments/04_darcy_consistency/darcy_pressure/solve_pressures.py",
+    "original_sha256": "a3e5b6050144c721a272c768eb54cc3f0b72293584614c2fc4217901b3c3d684",
+    "packaged_sha256": "3f7c336c3488f00f9b303e89875597b5b48d84b65730c28610bd3f44d877ede5"
+  },
+  {
+    "source": "ltmi_esmda/reproduce.py",
+    "destination": "experiments/05_ltmi_recovery/reproduce.py",
+    "original_sha256": "8b834644b854d89289dc73ba22e1bb9cd8ff297a3699a706b56d19cf29ebb61d",
+    "packaged_sha256": "992813ea43b75277c947655d4ceac257ea85a02cca9ac149561a58b562578f64"
+  },
+  {
+    "source": "ltmi_esmda/fetch_data.py",
+    "destination": "experiments/05_ltmi_recovery/fetch_data.py",
+    "original_sha256": "01b2d50cb5b8808eb4aa30f8c56234998a2f91b55bdcb15a2d89e14a02edcae9",
+    "packaged_sha256": "ad3e6da905e8e7aaa02807966250f5ed682f984567eacf1853e84f73bd638649"
+  },
+  {
+    "source": "ltmi_esmda/posterior_analysis/analyze.py",
+    "destination": "experiments/05_ltmi_recovery/posterior_analysis/analyze.py",
+    "original_sha256": "539b411a802e104aace97b687b329b6bfe24d9c72273a2661fc1bf3359b8ea30",
+    "packaged_sha256": "539b411a802e104aace97b687b329b6bfe24d9c72273a2661fc1bf3359b8ea30"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/poisson_reference_correlations/correlation_curves.png",
+    "destination": "results/01_spatial_dependence/poisson_reference_correlations/correlation_curves.png",
+    "original_sha256": "65d656dc4c91f5dda282eadb170fe2054a04a9b149d928aeba98f987c3016061",
+    "packaged_sha256": "65d656dc4c91f5dda282eadb170fe2054a04a9b149d928aeba98f987c3016061"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/poisson_reference_correlations/summary.csv",
+    "destination": "results/01_spatial_dependence/poisson_reference_correlations/summary.csv",
+    "original_sha256": "9336c89f41012df68300a7b00b99e9a733c832552dfcf79d6141f9ec9412697a",
+    "packaged_sha256": "1c1cc1987fa7f269ab16dd62f92217c86e8324dff5f12edb9e666eca368a17fd"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/poisson_patch_correlations/patch_correlation_curves.png",
+    "destination": "results/01_spatial_dependence/poisson_patch_correlations/patch_correlation_curves.png",
+    "original_sha256": "1ecb8729c02aced477c976d951f394e483078510fb94a4974f264dbd6c191e63",
+    "packaged_sha256": "1ecb8729c02aced477c976d951f394e483078510fb94a4974f264dbd6c191e63"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/poisson_patch_correlations/summary.csv",
+    "destination": "results/01_spatial_dependence/poisson_patch_correlations/summary.csv",
+    "original_sha256": "0368f50a5ad9ce8a494b2e3d7cacff169d2553a36deb20739ee4f8d3bab5366e",
+    "packaged_sha256": "812ec232e6508ddc3072421ca4cb6a8016687db30c98d2629c77bfed5374296e"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/generator/baseline_fit.png",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/generator/baseline_fit.png",
+    "original_sha256": "f282bd5cde25bb13a4ae15d48af530b0e9e7725823450244405e8a55e8159fd6",
+    "packaged_sha256": "f282bd5cde25bb13a4ae15d48af530b0e9e7725823450244405e8a55e8159fd6"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/generator/design.json",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/generator/design.json",
+    "original_sha256": "c7a14420ccc5cae59725fa3b17dded0ad8228f3f0f00396d2b236d962e621ace",
+    "packaged_sha256": "c7a14420ccc5cae59725fa3b17dded0ad8228f3f0f00396d2b236d962e621ace"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/generator/field_examples.png",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/generator/field_examples.png",
+    "original_sha256": "ccebd82c0c910726e32ef928bf41d2129f928ca6cb00f192bd6a9355f1516be6",
+    "packaged_sha256": "ccebd82c0c910726e32ef928bf41d2129f928ca6cb00f192bd6a9355f1516be6"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/generator/perturbation_curves.png",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/generator/perturbation_curves.png",
+    "original_sha256": "2c890949d538b37785d42cf845276fd1a111559d628adff0fc695c715fa67418",
+    "packaged_sha256": "2c890949d538b37785d42cf845276fd1a111559d628adff0fc695c715fa67418"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/results/anticorrelation_detection.png",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/results/anticorrelation_detection.png",
+    "original_sha256": "b754470556d1825641320f4586ff6fc684ad643c66cb3f1a3fe4e282297f912e",
+    "packaged_sha256": "b754470556d1825641320f4586ff6fc684ad643c66cb3f1a3fe4e282297f912e"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/results/calibration.json",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/results/calibration.json",
+    "original_sha256": "cd57f76ee22951b5fba8df00c8710e3aa335f84b054a0d26b895922c45bf4de0",
+    "packaged_sha256": "cd57f76ee22951b5fba8df00c8710e3aa335f84b054a0d26b895922c45bf4de0"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/results/detection_rates.csv",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/results/detection_rates.csv",
+    "original_sha256": "f791898c7416ac9c03273bf1582fbcb87b83adc21b47a092c432576ccf932276",
+    "packaged_sha256": "6e2161229f5c8b37b8ef83b6813f0803b71eeeab47680b9b49ef66e98c3569a1"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/results/direction_detection.png",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/results/direction_detection.png",
+    "original_sha256": "4e036f73cc1ee4c899dab186b4b8a047e5dadb54fc81d49e2317503d563584e1",
+    "packaged_sha256": "4e036f73cc1ee4c899dab186b4b8a047e5dadb54fc81d49e2317503d563584e1"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/results/range_detection.png",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/results/range_detection.png",
+    "original_sha256": "802cc743b2bce10996b4aa5ee1cb982759a59a1e6268e60df6f30f03a4f86fa0",
+    "packaged_sha256": "802cc743b2bce10996b4aa5ee1cb982759a59a1e6268e60df6f30f03a4f86fa0"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/results/scores.csv",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/results/scores.csv",
+    "original_sha256": "5f5efe3a3d4697bb46d87a565ffc7dca7a3c4c1619263eec7b770ddf3360c66b",
+    "packaged_sha256": "33046c423a91da04046a8ed8f578c33ad62fc7ae97081f843d91564568d9b11e"
+  },
+  {
+    "source": "PosteriorBench_spatial_dependence/PosteriorBench/outputs/spatial_metric_detection/results/thresholds.csv",
+    "destination": "results/01_spatial_dependence/spatial_metric_detection/results/thresholds.csv",
+    "original_sha256": "997d8429f01041ac1950490e4b15ba499e678d55f722a8f82e3425dd9d7c133f",
+    "packaged_sha256": "07a69c347d995f44ff77b4943b1ae2c1fcbab2289672be075dad2436120b167f"
+  },
+  {
+    "source": "poisson_sensor_ablation/paper_esmda_settings/coordinates.npz",
+    "destination": "results/02_sensor_placement/paper_esmda_settings/coordinates.npz",
+    "original_sha256": "e225dd32dda0f735600b479d30fd90d3b5d380cdc826ad14fe41781bc1ae314e",
+    "packaged_sha256": "e225dd32dda0f735600b479d30fd90d3b5d380cdc826ad14fe41781bc1ae314e"
+  },
+  {
+    "source": "poisson_sensor_ablation/cluster_ablation/coordinates.npz",
+    "destination": "results/02_sensor_placement/cluster_ablation/coordinates.npz",
+    "original_sha256": "a2f0fc8bc1646c043c836bd496a32ab2c29bd0fb3037be48745f3dc95082652c",
+    "packaged_sha256": "a2f0fc8bc1646c043c836bd496a32ab2c29bd0fb3037be48745f3dc95082652c"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/paired_ratios.csv",
+    "destination": "results/03_posterior_geometry/dimensions/paired_ratios.csv",
+    "original_sha256": "e5f8070bc537d97d3fd1f0aeab9c2fe0605333f7a3b52aa98ad3d1b349d32c4b",
+    "packaged_sha256": "1bc7dbdbfa7bcc82106e8412c9720a6f8acf097f824f6c06a022a286321c5f05"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/per_case_100.csv",
+    "destination": "results/03_posterior_geometry/dimensions/per_case_100.csv",
+    "original_sha256": "17484e44e498fc1a5b4b35ea3507160a8d3fb9b92a355dfd58992e058de9fffa",
+    "packaged_sha256": "8aa8596ecf74454f9a0ae2886a45b94e8d511c62043faaf3c50420fdd9815198"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/subsets_38.csv",
+    "destination": "results/03_posterior_geometry/dimensions/subsets_38.csv",
+    "original_sha256": "de28768251feb9fe5a443edaab7214d98012756df8e9cdea26084dacb64ee960",
+    "packaged_sha256": "57acf9041e1bf91d4a08013b4bc650dee8d398b5d61d272c3ff7b0010e4e136e"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/summary.csv",
+    "destination": "results/03_posterior_geometry/dimensions/summary.csv",
+    "original_sha256": "d4b07f0312500c3679e637eb51d2ac9692c32cefc4c28508794e339b5e631460",
+    "packaged_sha256": "f44e002f6287c668a69f771236f028cb983f3016d87f323314a6b163c2130e9f"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/run/run_settings.json",
+    "destination": "results/03_posterior_geometry/run/run_settings.json",
+    "original_sha256": "e4f85aad6fe138df960286ea0e926522218a077c9ff05411b7424c2349099e0d",
+    "packaged_sha256": "31d92e65a30072cd4bad112b54625cfcf1055bb5be7bfe76739819cbdec15686"
+  },
+  {
+    "source": "darcy_pressure/conservation_by_case.csv",
+    "destination": "results/04_darcy_consistency/conservation_by_case.csv",
+    "original_sha256": "c242ba3bb3d8c3245709b242054a70a1dbecdb9a695e8f37920e14a6b39b0ea7",
+    "packaged_sha256": "064ba212e82063734ffa3bbbf29d8e16f353e73829d2c474f30362fd4cf4c69a"
+  },
+  {
+    "source": "darcy_pressure/paired_pressure_by_case.csv",
+    "destination": "results/04_darcy_consistency/paired_pressure_by_case.csv",
+    "original_sha256": "af01edd2c6d22bc998e34762ee13b338093aed4d2d2df9ec8052627b9f44f76d",
+    "packaged_sha256": "430a8927f0876af2231b9226fd6da04b04380ab29ac6e577b5fabe6cc66d2c45"
+  },
+  {
+    "source": "darcy_pressure/pressure_by_case.csv",
+    "destination": "results/04_darcy_consistency/pressure_by_case.csv",
+    "original_sha256": "bdb273601e8043fbd320ebcf911ef0ff8b558b58f2ae06b6fbfd6fa316840012",
+    "packaged_sha256": "4be74d584c2fb1939a1f44de12de494aadd1ffc826d2b5dac03cd4cc36914d66"
+  },
+  {
+    "source": "darcy_pressure/solver_controls_by_case.csv",
+    "destination": "results/04_darcy_consistency/solver_controls_by_case.csv",
+    "original_sha256": "9f0d586a2b2be0c34bab41985a43e323d153fd0809b615c25cdc15e33bdb2d41",
+    "packaged_sha256": "15b3dcfff5211a6472d8fdcd9068330ce72d6856b8441d3c2daefce1daf92fa5"
+  },
+  {
+    "source": "darcy_pressure/summary.json",
+    "destination": "results/04_darcy_consistency/summary.json",
+    "original_sha256": "3707d597cddaca21845bea8f3d662625ab71a5f752e1caa85d7042a9e8b024f2",
+    "packaged_sha256": "1fcdd1922f66e3bbfb6e8e4b7af915f646bed6b25c46779e7d50ffc8d18120cc"
+  },
+  {
+    "source": "darcy_esmda/run/run_settings.json",
+    "destination": "results/04_darcy_consistency/generation/run/run_settings.json",
+    "original_sha256": "a0ea8959eeb9b3b67f112a8538a92753e77c31ca56b2964e2597a241c8fb52d0",
+    "packaged_sha256": "53c3dcb3d1e6c8ebb5a0d3811e7afb38506f7131b8b3fef3f16fc6e0c87511d8"
+  },
+  {
+    "source": "darcy_esmda/run/comparison.csv",
+    "destination": "results/04_darcy_consistency/generation/run/comparison.csv",
+    "original_sha256": "ea155aca67a262f192cfa94c72a47c0aeb8efc34fb253da5923fc2710f404020",
+    "packaged_sha256": "013c6bdd3f2ea6d246f7dd415b9892801fff3958364f8657c76053da49ad5ffa"
+  },
+  {
+    "source": "darcy_esmda/data_manifest.json",
+    "destination": "results/04_darcy_consistency/generation/data_manifest.json",
+    "original_sha256": "9dc7b2a8effe372dc9aaf6d0ac8c485897635a89349ea29ce047fe4673871405",
+    "packaged_sha256": "3228eada15076cb118c8e3137cfe0b72743908438a9160d0745dba5a07483f0a"
+  },
+  {
+    "source": "ltmi_esmda/data_manifest.json",
+    "destination": "results/05_ltmi_recovery/data_manifest.json",
+    "original_sha256": "d8eb0007beb02eb50784bac09a3606c9394accd0b196d7e3bbeffbb861e7df76",
+    "packaged_sha256": "490d5d9f2e6f3e6aa378b0e2a826f1029794f138e6fb2db69a507c930225155c"
+  },
+  {
+    "source": "ltmi_esmda/run_settings.json",
+    "destination": "results/05_ltmi_recovery/run_settings.json",
+    "original_sha256": "f9434d292a55a9d966a1d7491f5c6c1517fdeed12574344912773aa68392ca31",
+    "packaged_sha256": "7739e13488984cadaeded8c1241caf1bb349567e6dea664ec52524d19855fb61"
+  },
+  {
+    "source": "ltmi_esmda/posterior_analysis/per_case.csv",
+    "destination": "results/05_ltmi_recovery/posterior_analysis/per_case.csv",
+    "original_sha256": "1e76a99bd1f551b2f670a6c4330ce741de51de38192c4692199dc2fd9d6a3633",
+    "packaged_sha256": "3d388409359857e8c602d2e6b1b5ab8c693dd9fe72be477646e59cd2e811c7f6"
+  },
+  {
+    "source": "ltmi_esmda/posterior_analysis/summary.json",
+    "destination": "results/05_ltmi_recovery/posterior_analysis/summary.json",
+    "original_sha256": "17c1bc0756fa585dae56c442e3ab4c701c8311c638ad2f04d89e05fbe8bf1b0c",
+    "packaged_sha256": "37378381bc66ec00aed88bca9e39f0c645afcc2349103fcdb5f099da533c053f"
+  },
+  {
+    "source": "poisson_sensor_ablation/paper_esmda_settings/poisson_layout_reference_esmda_4x_512.png",
+    "destination": "figures/02_sensor_layouts.png",
+    "original_sha256": "c9d165f313a3f8c336ea158f7ae1315fa0820362c619836c5d5c3302751e8b2f",
+    "packaged_sha256": "c9d165f313a3f8c336ea158f7ae1315fa0820362c619836c5d5c3302751e8b2f"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/pca_slide_mean_and_variance.png",
+    "destination": "figures/03_mean_variance.png",
+    "original_sha256": "4c0bd7644845bef43274983c61ec5964c226ba74fe77582e5179fe1a53b4d117",
+    "packaged_sha256": "4c0bd7644845bef43274983c61ec5964c226ba74fe77582e5179fe1a53b4d117"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/pca_slide_leading_components.png",
+    "destination": "figures/03_pca_modes.png",
+    "original_sha256": "593cfa3c0dc36c6a15951d456a053a721e5c50a3e1874074d28a44d53356de8f",
+    "packaged_sha256": "593cfa3c0dc36c6a15951d456a053a721e5c50a3e1874074d28a44d53356de8f"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/dimensions/pca_slide_results.png",
+    "destination": "figures/03_pca_summary.png",
+    "original_sha256": "d46822d246307f95ae1812ffc30cc0342eedb91389c731df47e10f71ec850c82",
+    "packaged_sha256": "d46822d246307f95ae1812ffc30cc0342eedb91389c731df47e10f71ec850c82"
+  },
+  {
+    "source": "darcy_pressure/pressure_and_conservation.png",
+    "destination": "figures/04_pressure_conservation.png",
+    "original_sha256": "72399992b7fccfd013ea4ab349decc3ae5edd0b40cf40baf9b405aa578f58a0e",
+    "packaged_sha256": "72399992b7fccfd013ea4ab349decc3ae5edd0b40cf40baf9b405aa578f58a0e"
+  },
+  {
+    "source": "darcy_pressure/representative_case.png",
+    "destination": "figures/04_paired_example.png",
+    "original_sha256": "eea57a0c4918b74c304cb2c37b971958478b7f3ac4f987c175a5e833a5fe1973",
+    "packaged_sha256": "eea57a0c4918b74c304cb2c37b971958478b7f3ac4f987c175a5e833a5fe1973"
+  },
+  {
+    "source": "ltmi_esmda/posterior_analysis/light_response.png",
+    "destination": "figures/05_light_detail.png",
+    "original_sha256": "b0a34a5600e381faff44b9c839568d881202e3ac3b9b392563fd6ff862107540",
+    "packaged_sha256": "b0a34a5600e381faff44b9c839568d881202e3ac3b9b392563fd6ff862107540"
+  },
+  {
+    "source": "ltmi_esmda/posterior_analysis/material_layers.png",
+    "destination": "figures/05_material_layers.png",
+    "original_sha256": "17fe8c75ec3183790f51c54849ee3dc453fe5850d49a4c19a7fdd77963657f5c",
+    "packaged_sha256": "17fe8c75ec3183790f51c54849ee3dc453fe5850d49a4c19a7fdd77963657f5c"
+  },
+  {
+    "source": "posterior_dimension/esmda_paper_comparison/run/evaluation/metrics.json",
+    "destination": "results/03_posterior_geometry/official_evaluation.json",
+    "original_sha256": "b0f425be153b254e9bbe48b24a3c9c12da00c41ff966e9520d42d0183ae15a19",
+    "packaged_sha256": "f70edd1fca26831cfd708997a8f7b8e4d14665b0b0a5f4672350c5e3ade56d44"
+  },
+  {
+    "source": "darcy_esmda/run/evaluation/metrics.json",
+    "destination": "results/04_darcy_consistency/official_evaluation.json",
+    "original_sha256": "6e01a8f982d94e379766b4f4972bad1c1e489812a2a87f68c8a76b33bb9ba47a",
+    "packaged_sha256": "c82502fee59d4e5bfba7a4e46044b031be143573b1d6754bf6236c7f8ef81cc2"
+  },
+  {
+    "source": "ltmi_esmda/evaluation/metrics.json",
+    "destination": "results/05_ltmi_recovery/official_evaluation.json",
+    "original_sha256": "940585045f3a950d069f80eeaaafbfa4958e4eff4952c789fc46bc3c2384ab29",
+    "packaged_sha256": "bb0de7046f87e39c0dbfd84de4239c4f08e8e4b085828f233d86c1a590a8a72a"
+  }
+]
