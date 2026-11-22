@@ -1,0 +1,1957 @@
+{
+  "dataset": "light_transport",
+  "target_fields": [
+    "sigma_t"
+  ],
+  "num_cases": 90,
+  "evaluation": {
+    "prediction_policy": "none",
+    "n_projections": 128,
+    "projection_seed": 0,
+    "projection_distribution": "normalized_dct_grf",
+    "projection_grf_alpha": 2.0,
+    "projection_grf_tau": 3.0,
+    "swd_input_normalization": {
+      "type": "training_zscore",
+      "scale": 1.0,
+      "applies_to": [
+        "swd"
+      ],
+      "statistics": {
+        "sigma_t": {
+          "mean": 2.517375625168248,
+          "std": 1.2497382353837136,
+          "source": "<original-local-path>/LTMI",
+          "field": "0.5*(sigma_t1+sigma_t2)"
+        }
+      }
+    },
+    "aggregate_std_ddof": 1,
+    "spectral_definition": "radial_psd_per_bin_relative_error_geometric_mean",
+    "spectral_rel_geomean": "exp(mean(log(valid_relative_errors + 1e-10))) with valid bins requiring finite values and ref_spectrum > 1e-10"
+  },
+  "summary": {
+    "sigma_t": {
+      "mean_rel_l2": {
+        "mean": 0.12545267810527652,
+        "std": 0.01979664640586433
+      },
+      "std_rel_l2": {
+        "mean": 0.19821853106967488,
+        "std": 0.02370252786710179
+      },
+      "mmd": {
+        "mean": 0.2813785604052931,
+        "std": 0.036909061951157035
+      },
+      "swd": {
+        "mean": 2.4554208882112687,
+        "std": 0.43112355416664
+      },
+      "spectral_rel_geomean": {
+        "mean": 0.0638547248624284,
+        "std": 0.029424018034257628
+      }
+    }
+  },
+  "per_case": {
+    "light_transport_11": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12420706697428689,
+        "std_rel_l2": 0.23078637678213085,
+        "mmd": 0.31485266506986265,
+        "swd": 3.0554716605534304,
+        "spectral_rel_geomean": 0.04228110013160286,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_12": {
+      "sigma_t": {
+        "mean_rel_l2": 0.126050202089104,
+        "std_rel_l2": 0.19719549268771858,
+        "mmd": 0.2398231866703546,
+        "swd": 2.7112547265279154,
+        "spectral_rel_geomean": 0.02819886607032963,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_13": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12144529761938176,
+        "std_rel_l2": 0.18377329566953376,
+        "mmd": 0.264214622594824,
+        "swd": 2.460602139908132,
+        "spectral_rel_geomean": 0.05353624590315859,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_14": {
+      "sigma_t": {
+        "mean_rel_l2": 0.08888662040828167,
+        "std_rel_l2": 0.187018137666861,
+        "mmd": 0.21859861705951902,
+        "swd": 1.7753990152248416,
+        "spectral_rel_geomean": 0.10772889976039433,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_15": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1368390192210004,
+        "std_rel_l2": 0.23031573691976515,
+        "mmd": 0.31141805950106755,
+        "swd": 2.400474262234982,
+        "spectral_rel_geomean": 0.10489148239958448,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_16": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11323851542568189,
+        "std_rel_l2": 0.1569511878815325,
+        "mmd": 0.2576389740388689,
+        "swd": 2.7413320046446916,
+        "spectral_rel_geomean": 0.04661261011481909,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_17": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11695170118098626,
+        "std_rel_l2": 0.21104622230384248,
+        "mmd": 0.2363455258410303,
+        "swd": 2.399169173418059,
+        "spectral_rel_geomean": 0.0424604165170079,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_18": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10489141065335833,
+        "std_rel_l2": 0.17127541752716585,
+        "mmd": 0.25332838526188733,
+        "swd": 1.957192775831058,
+        "spectral_rel_geomean": 0.02993781492211083,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_19": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12336353275587544,
+        "std_rel_l2": 0.21291101447642555,
+        "mmd": 0.2591488245431236,
+        "swd": 2.0629580631260414,
+        "spectral_rel_geomean": 0.09083822526497404,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_20": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13229249736590679,
+        "std_rel_l2": 0.20252356116159212,
+        "mmd": 0.28087621557436965,
+        "swd": 2.7012552307649456,
+        "spectral_rel_geomean": 0.06632663990829393,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_21": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1331960187147259,
+        "std_rel_l2": 0.1809353247969294,
+        "mmd": 0.3155230703875565,
+        "swd": 2.7317438457453855,
+        "spectral_rel_geomean": 0.04240257016166881,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_22": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1418195452139905,
+        "std_rel_l2": 0.23201311828103424,
+        "mmd": 0.3061031056060477,
+        "swd": 2.3875021208563147,
+        "spectral_rel_geomean": 0.07629981448238858,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_23": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13041668297026907,
+        "std_rel_l2": 0.2035298323567889,
+        "mmd": 0.23808187785895796,
+        "swd": 2.0472242733110977,
+        "spectral_rel_geomean": 0.03212703619237255,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_24": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11896184649328345,
+        "std_rel_l2": 0.18992738563572847,
+        "mmd": 0.2714422871643916,
+        "swd": 2.3374854846953377,
+        "spectral_rel_geomean": 0.054428710114605074,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_25": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10689585932120546,
+        "std_rel_l2": 0.19132106621373357,
+        "mmd": 0.23151435482478114,
+        "swd": 2.0249206146679426,
+        "spectral_rel_geomean": 0.12549293366317757,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_26": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11341312487507536,
+        "std_rel_l2": 0.19712883043575752,
+        "mmd": 0.2698776237286732,
+        "swd": 2.5177803719291103,
+        "spectral_rel_geomean": 0.10195831959135249,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_27": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12858316788705756,
+        "std_rel_l2": 0.18551086205173412,
+        "mmd": 0.3207396806675772,
+        "swd": 3.039540775350874,
+        "spectral_rel_geomean": 0.059740611283184995,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_28": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13681027030822832,
+        "std_rel_l2": 0.1768251984102838,
+        "mmd": 0.31788893358331427,
+        "swd": 2.955997972994343,
+        "spectral_rel_geomean": 0.06098003093127156,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_29": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11307163102611406,
+        "std_rel_l2": 0.18725985597796266,
+        "mmd": 0.2491329253093859,
+        "swd": 2.1630008509552336,
+        "spectral_rel_geomean": 0.11621467789531738,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_30": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1215708004397284,
+        "std_rel_l2": 0.1900881576118919,
+        "mmd": 0.2746711011884108,
+        "swd": 2.5125066385342123,
+        "spectral_rel_geomean": 0.03322509520229279,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_31": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12422290397555756,
+        "std_rel_l2": 0.1862243450086117,
+        "mmd": 0.29217851151772134,
+        "swd": 2.6959248983217643,
+        "spectral_rel_geomean": 0.054878148194176635,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_32": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11661721810516161,
+        "std_rel_l2": 0.1751387825810904,
+        "mmd": 0.2815492214215184,
+        "swd": 2.5275860843403395,
+        "spectral_rel_geomean": 0.05933930769156488,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_33": {
+      "sigma_t": {
+        "mean_rel_l2": 0.08216083838693583,
+        "std_rel_l2": 0.1776611830250478,
+        "mmd": 0.20444904005691775,
+        "swd": 1.8107369584261788,
+        "spectral_rel_geomean": 0.07036418873634445,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_34": {
+      "sigma_t": {
+        "mean_rel_l2": 0.14801495530049794,
+        "std_rel_l2": 0.20177160072237288,
+        "mmd": 0.3270475040909992,
+        "swd": 3.1129550042639726,
+        "spectral_rel_geomean": 0.04002097298457582,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_35": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11995159672858328,
+        "std_rel_l2": 0.2824840330787305,
+        "mmd": 0.2997864972395227,
+        "swd": 2.0750515508521445,
+        "spectral_rel_geomean": 0.02695427279246188,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_36": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11661462811981047,
+        "std_rel_l2": 0.20145829620953765,
+        "mmd": 0.2869371160878358,
+        "swd": 2.1039287567572673,
+        "spectral_rel_geomean": 0.021595427829913433,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_37": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12907704945125062,
+        "std_rel_l2": 0.21225684123238156,
+        "mmd": 0.3302150351851753,
+        "swd": 2.4798110670427302,
+        "spectral_rel_geomean": 0.049015793006084774,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_38": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1962698140565378,
+        "std_rel_l2": 0.18138315093929128,
+        "mmd": 0.3637192594943703,
+        "swd": 3.8299937015163357,
+        "spectral_rel_geomean": 0.042907142110422285,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_39": {
+      "sigma_t": {
+        "mean_rel_l2": 0.15524760239128366,
+        "std_rel_l2": 0.1895580233854514,
+        "mmd": 0.3301916553674297,
+        "swd": 2.7025579565074107,
+        "spectral_rel_geomean": 0.17572447565772403,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_40": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11245029815010069,
+        "std_rel_l2": 0.1967358262999394,
+        "mmd": 0.2969212619929754,
+        "swd": 2.093846146665109,
+        "spectral_rel_geomean": 0.07262922546276361,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_41": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10914725369110374,
+        "std_rel_l2": 0.16756003649655016,
+        "mmd": 0.2305318205915768,
+        "swd": 1.9919471986772663,
+        "spectral_rel_geomean": 0.07256925360966145,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_42": {
+      "sigma_t": {
+        "mean_rel_l2": 0.09619780544848322,
+        "std_rel_l2": 0.18652935476261256,
+        "mmd": 0.24164689776519052,
+        "swd": 1.981635716499,
+        "spectral_rel_geomean": 0.048915771768391444,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_43": {
+      "sigma_t": {
+        "mean_rel_l2": 0.14433743011710604,
+        "std_rel_l2": 0.22778371007035433,
+        "mmd": 0.3196674558762588,
+        "swd": 2.0773741527821397,
+        "spectral_rel_geomean": 0.06324023921551758,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_44": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10010653679394264,
+        "std_rel_l2": 0.21985135156190583,
+        "mmd": 0.2729697966657991,
+        "swd": 1.979580448550264,
+        "spectral_rel_geomean": 0.04676311144591446,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_45": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1587168184175248,
+        "std_rel_l2": 0.23051362015606822,
+        "mmd": 0.3257764648329694,
+        "swd": 2.613110403941246,
+        "spectral_rel_geomean": 0.05424003243107018,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_46": {
+      "sigma_t": {
+        "mean_rel_l2": 0.14202553230061327,
+        "std_rel_l2": 0.2202494385768531,
+        "mmd": 0.3125593366053726,
+        "swd": 2.266570341794357,
+        "spectral_rel_geomean": 0.06812541208840998,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_47": {
+      "sigma_t": {
+        "mean_rel_l2": 0.149030396214881,
+        "std_rel_l2": 0.22236326647308563,
+        "mmd": 0.3370911280476232,
+        "swd": 2.9160122875149272,
+        "spectral_rel_geomean": 0.03441171416300451,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_48": {
+      "sigma_t": {
+        "mean_rel_l2": 0.0988882024079316,
+        "std_rel_l2": 0.20292361644495574,
+        "mmd": 0.27557089773981996,
+        "swd": 2.0829243931373838,
+        "spectral_rel_geomean": 0.07139420973520358,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_49": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13861831630575236,
+        "std_rel_l2": 0.22084436079166572,
+        "mmd": 0.32617457847705905,
+        "swd": 2.467908263440301,
+        "spectral_rel_geomean": 0.06396295312337846,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_50": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12663352180050896,
+        "std_rel_l2": 0.21471489767613694,
+        "mmd": 0.2986852643894349,
+        "swd": 2.163063019220669,
+        "spectral_rel_geomean": 0.04427872065397896,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_51": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12070018546769336,
+        "std_rel_l2": 0.17929371517575993,
+        "mmd": 0.2574280665571014,
+        "swd": 2.289827529733178,
+        "spectral_rel_geomean": 0.10934483365911452,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_52": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12482896560468261,
+        "std_rel_l2": 0.20969624675076645,
+        "mmd": 0.30301196435168565,
+        "swd": 2.216290203894666,
+        "spectral_rel_geomean": 0.04272633398653584,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_53": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1255172891319484,
+        "std_rel_l2": 0.2025340089324081,
+        "mmd": 0.25874215256194244,
+        "swd": 3.2453399850957787,
+        "spectral_rel_geomean": 0.08721753489008055,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_54": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1254855547861052,
+        "std_rel_l2": 0.16221076007576982,
+        "mmd": 0.2663908842736804,
+        "swd": 2.524077558409293,
+        "spectral_rel_geomean": 0.04857939646525961,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_55": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13908371181396312,
+        "std_rel_l2": 0.18499722887463227,
+        "mmd": 0.2606456843774771,
+        "swd": 2.11192485679648,
+        "spectral_rel_geomean": 0.017567836335269933,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_56": {
+      "sigma_t": {
+        "mean_rel_l2": 0.09346193826916158,
+        "std_rel_l2": 0.17685791708655518,
+        "mmd": 0.2433823197761893,
+        "swd": 1.8478149271468036,
+        "spectral_rel_geomean": 0.048996776962552405,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_57": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13334005488906234,
+        "std_rel_l2": 0.19382327395808255,
+        "mmd": 0.3066762051810036,
+        "swd": 2.3134348882824294,
+        "spectral_rel_geomean": 0.06499116816251568,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_58": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1323188633657603,
+        "std_rel_l2": 0.2130451713185081,
+        "mmd": 0.31382182844446965,
+        "swd": 3.054724764712546,
+        "spectral_rel_geomean": 0.03232139516942231,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_59": {
+      "sigma_t": {
+        "mean_rel_l2": 0.15097798704507648,
+        "std_rel_l2": 0.23494256586346907,
+        "mmd": 0.34444771010750813,
+        "swd": 2.4965863884536743,
+        "spectral_rel_geomean": 0.06896640166812995,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_60": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10610767583038225,
+        "std_rel_l2": 0.23895539576227953,
+        "mmd": 0.26998581058568627,
+        "swd": 2.370356028449122,
+        "spectral_rel_geomean": 0.039918317902889466,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_61": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13900435033121672,
+        "std_rel_l2": 0.19025683840242108,
+        "mmd": 0.2676018040499766,
+        "swd": 2.3718402300861214,
+        "spectral_rel_geomean": 0.07073567892815819,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_62": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10832337873414122,
+        "std_rel_l2": 0.20437351058370673,
+        "mmd": 0.21994613752410008,
+        "swd": 2.0371749722185926,
+        "spectral_rel_geomean": 0.036515439416879625,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_63": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10881015241533386,
+        "std_rel_l2": 0.17406043916176367,
+        "mmd": 0.2601425134940032,
+        "swd": 2.0400048995061204,
+        "spectral_rel_geomean": 0.12074639876881557,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_64": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1549360347692254,
+        "std_rel_l2": 0.25041822598272295,
+        "mmd": 0.3596438541274985,
+        "swd": 2.779855875419434,
+        "spectral_rel_geomean": 0.12439121781117402,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_65": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11474980949754694,
+        "std_rel_l2": 0.1529373681562502,
+        "mmd": 0.2942290060575561,
+        "swd": 2.556076770016623,
+        "spectral_rel_geomean": 0.09981292321564729,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_66": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12337086693352868,
+        "std_rel_l2": 0.17294781368518775,
+        "mmd": 0.25780096496599275,
+        "swd": 2.2725286323901885,
+        "spectral_rel_geomean": 0.059117025909197145,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_67": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1106492018905391,
+        "std_rel_l2": 0.17475544532745999,
+        "mmd": 0.270493820878583,
+        "swd": 2.3887321338353322,
+        "spectral_rel_geomean": 0.055649187980191396,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_68": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13531082946707398,
+        "std_rel_l2": 0.16982934579244427,
+        "mmd": 0.2781717687878251,
+        "swd": 3.288074924554836,
+        "spectral_rel_geomean": 0.09755030916519264,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_69": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10826523875284229,
+        "std_rel_l2": 0.17038547827845107,
+        "mmd": 0.23490512194355925,
+        "swd": 2.1520091618254775,
+        "spectral_rel_geomean": 0.07217526415273073,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_70": {
+      "sigma_t": {
+        "mean_rel_l2": 0.09694577150278087,
+        "std_rel_l2": 0.1740576057474724,
+        "mmd": 0.26336399262474075,
+        "swd": 2.8197653813088257,
+        "spectral_rel_geomean": 0.0698300410542376,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_71": {
+      "sigma_t": {
+        "mean_rel_l2": 0.14747932562515553,
+        "std_rel_l2": 0.20755227093524184,
+        "mmd": 0.32473250403479864,
+        "swd": 2.763247994416561,
+        "spectral_rel_geomean": 0.08024544483913232,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_72": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12411537747346789,
+        "std_rel_l2": 0.18848593713444547,
+        "mmd": 0.27592714302586985,
+        "swd": 3.1415340892956873,
+        "spectral_rel_geomean": 0.06788758891369655,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_73": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12886344196936628,
+        "std_rel_l2": 0.22706291734371167,
+        "mmd": 0.24052500692130208,
+        "swd": 1.7132996678485637,
+        "spectral_rel_geomean": 0.02752116929446266,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_74": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1317150542160184,
+        "std_rel_l2": 0.19223632749954017,
+        "mmd": 0.27782655348337093,
+        "swd": 2.5442670219463848,
+        "spectral_rel_geomean": 0.019217500964655618,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_75": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1451694935127182,
+        "std_rel_l2": 0.18998128676703582,
+        "mmd": 0.30468093447387107,
+        "swd": 3.040780688278236,
+        "spectral_rel_geomean": 0.03917239073307228,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_76": {
+      "sigma_t": {
+        "mean_rel_l2": 0.09189779957241086,
+        "std_rel_l2": 0.20970115602825604,
+        "mmd": 0.2185844828784028,
+        "swd": 1.7923959786022037,
+        "spectral_rel_geomean": 0.06852888398685852,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_77": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1402260741804566,
+        "std_rel_l2": 0.22084601369144863,
+        "mmd": 0.301420020815153,
+        "swd": 2.474606580435796,
+        "spectral_rel_geomean": 0.050817744456037865,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_78": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11727550715893102,
+        "std_rel_l2": 0.1915473300448495,
+        "mmd": 0.3001481304724394,
+        "swd": 2.1755502885416402,
+        "spectral_rel_geomean": 0.07855696705646488,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_79": {
+      "sigma_t": {
+        "mean_rel_l2": 0.16243150495382985,
+        "std_rel_l2": 0.19456089363345308,
+        "mmd": 0.30911255218621325,
+        "swd": 2.5125169739471285,
+        "spectral_rel_geomean": 0.08012764810064611,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_80": {
+      "sigma_t": {
+        "mean_rel_l2": 0.13422768872640978,
+        "std_rel_l2": 0.19924595777738496,
+        "mmd": 0.3206301668559156,
+        "swd": 2.2749266739960134,
+        "spectral_rel_geomean": 0.058215474145172474,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_81": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1247275722782283,
+        "std_rel_l2": 0.18069772055710046,
+        "mmd": 0.2817413250453923,
+        "swd": 2.2005758954612795,
+        "spectral_rel_geomean": 0.12502794150087557,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_82": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10429904794428516,
+        "std_rel_l2": 0.21411571496965953,
+        "mmd": 0.24946034922990296,
+        "swd": 2.0507809196317845,
+        "spectral_rel_geomean": 0.03708275989080864,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_83": {
+      "sigma_t": {
+        "mean_rel_l2": 0.14763484580430178,
+        "std_rel_l2": 0.24492627290685806,
+        "mmd": 0.3042523274170128,
+        "swd": 3.2740141743490874,
+        "spectral_rel_geomean": 0.048947034361474226,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_84": {
+      "sigma_t": {
+        "mean_rel_l2": 0.15262766570644076,
+        "std_rel_l2": 0.19874617185884208,
+        "mmd": 0.3382865216671686,
+        "swd": 2.909599673844472,
+        "spectral_rel_geomean": 0.07319496138485099,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_85": {
+      "sigma_t": {
+        "mean_rel_l2": 0.14851092070696595,
+        "std_rel_l2": 0.25849895488692576,
+        "mmd": 0.3185590355600267,
+        "swd": 3.098652759011755,
+        "spectral_rel_geomean": 0.03955202797034683,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_86": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12879137853377404,
+        "std_rel_l2": 0.17593274418167432,
+        "mmd": 0.2731145141154272,
+        "swd": 2.7114758982981657,
+        "spectral_rel_geomean": 0.0888934684670904,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_87": {
+      "sigma_t": {
+        "mean_rel_l2": 0.10959559938751116,
+        "std_rel_l2": 0.1641492890844644,
+        "mmd": 0.2437381490764405,
+        "swd": 2.0525116218084323,
+        "spectral_rel_geomean": 0.06138363222560117,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_88": {
+      "sigma_t": {
+        "mean_rel_l2": 0.158751145899978,
+        "std_rel_l2": 0.21697575902622143,
+        "mmd": 0.32511889755559165,
+        "swd": 2.6406888800793276,
+        "spectral_rel_geomean": 0.06685421360318612,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_89": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1323581784726577,
+        "std_rel_l2": 0.1865344317499639,
+        "mmd": 0.2938298514785608,
+        "swd": 2.4094655931091356,
+        "spectral_rel_geomean": 0.041676319795465676,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_90": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12778538942176695,
+        "std_rel_l2": 0.1747417638033972,
+        "mmd": 0.25662430387228785,
+        "swd": 2.8541910455324206,
+        "spectral_rel_geomean": 0.020937076147060123,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_91": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1534039411548501,
+        "std_rel_l2": 0.2319294198127231,
+        "mmd": 0.322042489505849,
+        "swd": 3.355208948191523,
+        "spectral_rel_geomean": 0.0790459228053039,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_92": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11773488916590774,
+        "std_rel_l2": 0.19916227460934013,
+        "mmd": 0.28609678999192967,
+        "swd": 2.630456946895812,
+        "spectral_rel_geomean": 0.06486383325103087,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_93": {
+      "sigma_t": {
+        "mean_rel_l2": 0.1209007126024807,
+        "std_rel_l2": 0.18206520358864559,
+        "mmd": 0.2702171373025103,
+        "swd": 2.406323353261965,
+        "spectral_rel_geomean": 0.025544560317032762,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_94": {
+      "sigma_t": {
+        "mean_rel_l2": 0.09258034449158983,
+        "std_rel_l2": 0.1795483704141645,
+        "mmd": 0.21099210653210046,
+        "swd": 2.105120958028419,
+        "spectral_rel_geomean": 0.09549271521874352,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_95": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12922445371889368,
+        "std_rel_l2": 0.20907032505632253,
+        "mmd": 0.3309261467420165,
+        "swd": 2.5359169665940056,
+        "spectral_rel_geomean": 0.09494319604442633,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_96": {
+      "sigma_t": {
+        "mean_rel_l2": 0.14808158337100696,
+        "std_rel_l2": 0.20010717812076284,
+        "mmd": 0.2852585551374098,
+        "swd": 3.030044570313705,
+        "spectral_rel_geomean": 0.05432452717278635,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_97": {
+      "sigma_t": {
+        "mean_rel_l2": 0.08955246428540783,
+        "std_rel_l2": 0.1785948131101205,
+        "mmd": 0.21947359176961972,
+        "swd": 1.6218328995220734,
+        "spectral_rel_geomean": 0.09155507135489922,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_98": {
+      "sigma_t": {
+        "mean_rel_l2": 0.12045523713428342,
+        "std_rel_l2": 0.192830182994081,
+        "mmd": 0.2661326777299284,
+        "swd": 2.2683348417874494,
+        "spectral_rel_geomean": 0.10897226619952104,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_99": {
+      "sigma_t": {
+        "mean_rel_l2": 0.11925704828940764,
+        "std_rel_l2": 0.1839037134955093,
+        "mmd": 0.25395813371816595,
+        "swd": 2.4414649691107604,
+        "spectral_rel_geomean": 0.02223618240907697,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    },
+    "light_transport_100": {
+      "sigma_t": {
+        "mean_rel_l2": 0.09164595411121283,
+        "std_rel_l2": 0.1791972359314249,
+        "mmd": 0.20493964729154562,
+        "swd": 1.8263226032140851,
+        "spectral_rel_geomean": 0.07194076019431152,
+        "n_pred": 100,
+        "n_reference": 100
+      }
+    }
+  },
+  "runtime": {
+    "started_at_unix": 1795263952.1637053,
+    "total_seconds": 160.02710960000013,
+    "num_cases": 90,
+    "cases_per_second": 0.5624047089581372,
+    "cases": {
+      "light_transport_11": {
+        "total_seconds": 0.36336279999977705,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1333521000001383,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_12": {
+        "total_seconds": 0.3767894000002343,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13508330000013302,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_13": {
+        "total_seconds": 0.38167959999964296,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13801569999986896,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_14": {
+        "total_seconds": 0.372584199999892,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1339962000001833,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_15": {
+        "total_seconds": 0.37211249999973006,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1398282999998628,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_16": {
+        "total_seconds": 0.3486590000002252,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1277801000001091,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_17": {
+        "total_seconds": 0.3650116999997408,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1328440000002047,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_18": {
+        "total_seconds": 0.37021740000000136,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12877770000022792,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_19": {
+        "total_seconds": 0.3546550000000934,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12672969999994166,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_20": {
+        "total_seconds": 0.3614255999996203,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13091830000030313,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_21": {
+        "total_seconds": 0.37921259999984613,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13762640000004467,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_22": {
+        "total_seconds": 0.3441309999998339,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13256020000017088,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_23": {
+        "total_seconds": 0.34266170000000784,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12642910000022312,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_24": {
+        "total_seconds": 0.355568200000107,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13093019999996613,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_25": {
+        "total_seconds": 0.3420346999996582,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13090209999973013,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_26": {
+        "total_seconds": 0.33498869999993985,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12657679999983884,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_27": {
+        "total_seconds": 0.34432699999979377,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12590000000000146,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_28": {
+        "total_seconds": 0.33777880000025107,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13192130000015823,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_29": {
+        "total_seconds": 0.34874970000009853,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13553420000016558,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_30": {
+        "total_seconds": 0.3351281000000199,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12514420000024984,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_31": {
+        "total_seconds": 0.3494412000000011,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.14035120000016832,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_32": {
+        "total_seconds": 0.3165914999999586,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.11927420000029088,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_33": {
+        "total_seconds": 0.32152959999984887,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12369440000020404,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_34": {
+        "total_seconds": 0.35783630000014455,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12113859999999477,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_35": {
+        "total_seconds": 0.3420365000001766,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12332579999974769,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_36": {
+        "total_seconds": 0.3318223000001126,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12123970000038753,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_37": {
+        "total_seconds": 0.33438859999978376,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.11679510000021764,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_38": {
+        "total_seconds": 0.34334179999996195,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12752180000006774,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_39": {
+        "total_seconds": 0.33972610000000714,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12440030000016122,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_40": {
+        "total_seconds": 0.3472240999999485,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.14064020000023447,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_41": {
+        "total_seconds": 0.3592364000000998,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13313519999974233,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_42": {
+        "total_seconds": 0.3450855999999476,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12494809999998324,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_43": {
+        "total_seconds": 0.3599939999999151,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1385195000002568,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_44": {
+        "total_seconds": 0.34608410000009826,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12094750000005661,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_45": {
+        "total_seconds": 0.34178149999979723,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12991199999987657,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_46": {
+        "total_seconds": 0.3278887000001305,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12406319999990956,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_47": {
+        "total_seconds": 0.3731968999995843,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13877800000000207,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_48": {
+        "total_seconds": 0.3536585000001651,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1327582999997503,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_49": {
+        "total_seconds": 0.35135029999992184,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12711589999980788,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_50": {
+        "total_seconds": 0.35563189999993483,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13081220000003668,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_51": {
+        "total_seconds": 0.3834080999999969,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13470920000008846,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_52": {
+        "total_seconds": 0.33675029999994877,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12888950000024124,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_53": {
+        "total_seconds": 0.36526709999998275,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1351182999997036,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_54": {
+        "total_seconds": 0.40374419999989186,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.14355199999999968,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_55": {
+        "total_seconds": 0.3731567999998333,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1297884000000522,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_56": {
+        "total_seconds": 0.37429040000006353,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13360820000025342,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_57": {
+        "total_seconds": 0.3410012999997889,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1269588999998632,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_58": {
+        "total_seconds": 0.3713708999998744,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13777699999991455,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_59": {
+        "total_seconds": 0.368173399999705,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13779840000006516,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_60": {
+        "total_seconds": 0.34196669999982987,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12631430000010369,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_61": {
+        "total_seconds": 0.3436195000003863,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12317319999965548,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_62": {
+        "total_seconds": 0.36047750000034284,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13477039999997942,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_63": {
+        "total_seconds": 0.3540305999999873,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1277535999997781,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_64": {
+        "total_seconds": 0.34808780000003026,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13112079999973503,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_65": {
+        "total_seconds": 0.33705589999999575,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12646889999996347,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_66": {
+        "total_seconds": 0.35890019999988,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1332766000000447,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_67": {
+        "total_seconds": 0.3557393000000957,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.14906710000013845,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_68": {
+        "total_seconds": 0.405069999999796,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.15384549999998853,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_69": {
+        "total_seconds": 0.32841440000038347,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12022939999997106,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_70": {
+        "total_seconds": 0.34808350000002974,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1293438999996397,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_71": {
+        "total_seconds": 0.32867750000013984,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12094030000025668,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_72": {
+        "total_seconds": 0.34460330000001704,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1266371000001527,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_73": {
+        "total_seconds": 0.3496804000001248,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1427505999999994,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_74": {
+        "total_seconds": 0.3722174000004088,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13181100000019796,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_75": {
+        "total_seconds": 0.34937559999980294,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1372440000000097,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_76": {
+        "total_seconds": 0.352772300000197,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13213690000020506,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_77": {
+        "total_seconds": 0.37870109999994384,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13355860000001485,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_78": {
+        "total_seconds": 0.39593490000015663,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.14853930000026594,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_79": {
+        "total_seconds": 0.3746585999997478,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.14713730000039504,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_80": {
+        "total_seconds": 0.38711659999989934,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13769309999997859,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_81": {
+        "total_seconds": 0.3541095000000496,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12130759999990914,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_82": {
+        "total_seconds": 0.3789063000003807,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13993140000002313,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_83": {
+        "total_seconds": 0.3346328000002359,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12772259999974267,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_84": {
+        "total_seconds": 0.3455952999997862,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1305394000000888,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_85": {
+        "total_seconds": 0.32410070000014457,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.123794000000089,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_86": {
+        "total_seconds": 0.33571299999994153,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13045400000009977,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_87": {
+        "total_seconds": 0.33181500000000597,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12419620000036957,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_88": {
+        "total_seconds": 0.3297428000000764,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12891429999990578,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_89": {
+        "total_seconds": 0.3589567999997598,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12980849999985367,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_90": {
+        "total_seconds": 0.31998479999992924,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.1280530999997609,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_91": {
+        "total_seconds": 0.3190088999999716,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12531850000004852,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_92": {
+        "total_seconds": 0.32383759999993345,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12881629999992583,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_93": {
+        "total_seconds": 0.3140275999999176,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12560780000012528,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_94": {
+        "total_seconds": 0.33214289999978064,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13270609999972294,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_95": {
+        "total_seconds": 0.33020780000015293,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12550269999974262,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_96": {
+        "total_seconds": 0.31696929999998247,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12543000000005122,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_97": {
+        "total_seconds": 0.3309487999999874,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.13705860000027315,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_98": {
+        "total_seconds": 0.3255732000002354,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12855399999989459,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_99": {
+        "total_seconds": 0.303716699999768,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.11502950000021883,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      },
+      "light_transport_100": {
+        "total_seconds": 0.33259309999994,
+        "fields": {
+          "sigma_t": {
+            "evaluation_seconds": 0.12418280000019877,
+            "n_pred": 100,
+            "n_reference": 100
+          }
+        }
+      }
+    }
+  }
+}

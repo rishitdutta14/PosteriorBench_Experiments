@@ -1,0 +1,275 @@
+{
+  "revision": "f45719309a0ea6500b86e6e9973c18b3ffff8650",
+  "files": [
+    {
+      "type": "file",
+      "oid": "a0023371480bd953088c567d76d32c29a2b0e246",
+      "size": 16496,
+      "path": "PDEFieldDataset_hf/LTMI/LTMI_croissant.json"
+    },
+    {
+      "type": "file",
+      "oid": "0ec6f9a294f44a5f4a124f8bcdd4ccd2683c3fee",
+      "size": 476133592,
+      "lfs": {
+        "oid": "3fac90d477cda74d47a5a877ce6d66577614f6a1134b3077714884af06455470",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "ac1b79bbf6285656cb0ef575f0b670a2ae5eddb8db911d4886d828f893a994cf",
+      "path": "PDEFieldDataset_hf/LTMI/data-00000-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "82af54a56c3b89f9ea523717130fdd79a623ac49",
+      "size": 476133592,
+      "lfs": {
+        "oid": "e9f2be747aa2e402e2a9732bda0cc39f6815130ebd54b9cc15091750910316da",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "2d363b96df1b0d6e7fcf9dd1bc584891c6db2b5a561ff484229e0054b10dc2a0",
+      "path": "PDEFieldDataset_hf/LTMI/data-00001-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "5e7dcb031dd6f8bb7414332967118aac1851ed96",
+      "size": 476133592,
+      "lfs": {
+        "oid": "c3e37e37ea1ebcf64441ed9dab57ee7f855b8f17bd35d37fd7411b1012716039",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "0f59159772f3a8300e4d7e6be9578aee6b05c94a6d67a656e84616147021e635",
+      "path": "PDEFieldDataset_hf/LTMI/data-00002-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "ee8d4d2be9d5c80dbd13010f06ba808d2bd598d3",
+      "size": 476133592,
+      "lfs": {
+        "oid": "b1f2f02f35e85f166fac91263346af309a0789ad1f787895a63dc0da965c9c64",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "50315df5a5715181505a10d11d4c2fcdb8e6c8cb2d33c7743cc24b6606978674",
+      "path": "PDEFieldDataset_hf/LTMI/data-00003-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "569df177aa40395278fc10dab0c5e1f2899c5414",
+      "size": 476133592,
+      "lfs": {
+        "oid": "0f2319c878b6e472dbe4613d75696ff8b9a6cd9a8969528f790c999f0fccca7e",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "1b99880a055feb913b6ce6caba4ad17f672b75b8b7f14577c7f737a9b40a6350",
+      "path": "PDEFieldDataset_hf/LTMI/data-00004-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "e4a4a0e1a63b3d3c4285241ca87ac8de64907198",
+      "size": 476133592,
+      "lfs": {
+        "oid": "052ad7c2edb67fe6962217e278d491c5bfacfb90e787788f179d7f9af5072874",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "084250654f6ad7565f9d7302df63d0757d5b16cf963573c02e7e96c60d7c3d7d",
+      "path": "PDEFieldDataset_hf/LTMI/data-00005-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "adee92de804af92a5849ea26c2f667a3d6565ef1",
+      "size": 476133592,
+      "lfs": {
+        "oid": "7258e548f5e7f5af5990b5639fd2a52e15d4becb588856331982fdea2b18cd88",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "35712d3d7fd2589adcb4536e873ac5d0e76cf1095b6a4b5f8ad01c8a8f6ba5af",
+      "path": "PDEFieldDataset_hf/LTMI/data-00006-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "776796ca6d6a2d13d52e8109c69aee5751e43d21",
+      "size": 476133592,
+      "lfs": {
+        "oid": "fa4d5e655faf744c55d5c24a913ae20cc8e7f165c822ddd23f314d27bc5366a9",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "23b46b1fb1a6932fd74f2be0e70e9843de6ee42074af84d13444ab22bbf09880",
+      "path": "PDEFieldDataset_hf/LTMI/data-00007-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "5d70ba91782acae90c607c32d957a7ad2e17ea10",
+      "size": 476133592,
+      "lfs": {
+        "oid": "88efb5125c27ac8d6cd2340bc368fa176c9367f48e44022b5c779c31d507de58",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "48d21f9e925ebb9e260dfb0e17c8fe4b9a310bffef8383d00b337582a09c496f",
+      "path": "PDEFieldDataset_hf/LTMI/data-00008-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "0a2ce4b63f7af7f86c6954b4b6ba76153ee1a9cd",
+      "size": 476133592,
+      "lfs": {
+        "oid": "d113950cc5ad717ec05bfba554be1672bdc9168fe5764ab984b7bc814619a9e5",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "c8d17e5d88bffe7736babb2beaa2d639c9e03efe0d92d1c2ae2e5d01db3fea8e",
+      "path": "PDEFieldDataset_hf/LTMI/data-00009-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "089912a54946da6a00d8bd146c0cdabd72fd05ed",
+      "size": 476133592,
+      "lfs": {
+        "oid": "969205e8851a9e20399bf45c22b7471444284d0919be535a6a6258f9baa22401",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "0d538f12771f94be2438e821bc8f5f86b6f25606245828cc49d7ceb0e4b0a93d",
+      "path": "PDEFieldDataset_hf/LTMI/data-00010-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "bfff2a68b94cd56dcc2a3ea5c5b71abb520bdd07",
+      "size": 476133592,
+      "lfs": {
+        "oid": "a4905f6f536024f81428a32b1d6d74eb6bf0bbf2e6472b453931c9349e62993d",
+        "size": 476133592,
+        "pointerSize": 134
+      },
+      "xetHash": "5967cc48ce13837284d7a54c361cfd7d9bb7faddbe7afe185b146746ae55118f",
+      "path": "PDEFieldDataset_hf/LTMI/data-00011-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "d0fad183bd6edb70c091963a1d97986fc3704d4a",
+      "size": 476066944,
+      "lfs": {
+        "oid": "0cfabeb8fb29affc30b672669851e8bbb65336cc0e5d12d7b0bc088ccfaeb430",
+        "size": 476066944,
+        "pointerSize": 134
+      },
+      "xetHash": "4d86b38d173616fa9f453cdacced1cf6913a7874e9c818b89af299eb6bc31376",
+      "path": "PDEFieldDataset_hf/LTMI/data-00012-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "c8d4cc3a43e644eae7b679bc86fea89a31ea5934",
+      "size": 476066944,
+      "lfs": {
+        "oid": "32f6bda2cbb6ff168eff582eac617a46b1732bb8fb109c65dd796beafc6c5f5b",
+        "size": 476066944,
+        "pointerSize": 134
+      },
+      "xetHash": "c1f310c52d761008be2f50fa8f2616bdf73b60a882aafbf8106d7beb4117f0cc",
+      "path": "PDEFieldDataset_hf/LTMI/data-00013-of-00014.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "09e1738fcc1f9a4d037d2792c05232095fc3d7ec",
+      "size": 1903,
+      "path": "PDEFieldDataset_hf/LTMI/dataset_info.json"
+    },
+    {
+      "type": "file",
+      "oid": "8ca14200769ea59138a051653fb126e17b7ada86",
+      "size": 1077,
+      "path": "PDEFieldDataset_hf/LTMI/metadata.json"
+    },
+    {
+      "type": "file",
+      "oid": "4d09e9cd86337fc9ee2822de4cb5988015ed50e6",
+      "size": 1017,
+      "path": "PDEFieldDataset_hf/LTMI/state.json"
+    },
+    {
+      "type": "file",
+      "oid": "d6bafc74c14161305a7d1f74434c01a0f0a7bd10",
+      "size": 17981,
+      "path": "PosteriorDataset_hf/LTMI/LTMI_croissant.json"
+    },
+    {
+      "type": "file",
+      "oid": "1410e9c3bbe480037eaa38c492fc5a5132122177",
+      "size": 34,
+      "path": "PosteriorDataset_hf/LTMI/dataset_dict.json"
+    },
+    {
+      "type": "file",
+      "oid": "c2756b8b0628f60b87a84f4a26ca5ac34bbea49a",
+      "size": 1352,
+      "path": "PosteriorDataset_hf/LTMI/metadata.json"
+    },
+    {
+      "type": "file",
+      "oid": "33cca895f9256ded54e8ff9251158de276b8a504",
+      "size": 302699064,
+      "lfs": {
+        "oid": "d5be01489f12c647f793d0e9eb62cb8f9e732a3ad37eaaea6f6789ce63c87e66",
+        "size": 302699064,
+        "pointerSize": 134
+      },
+      "xetHash": "7dd8c866332f203afd0360649016785d368513d79a28c42f27e719c6c44de107",
+      "path": "PosteriorDataset_hf/LTMI/test/data-00000-of-00002.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "e6ab6e0dfb3aa072e9b2d88b5f7df7c5e9465f50",
+      "size": 302699064,
+      "lfs": {
+        "oid": "3f54eacb61e7e464e28cc24f9287af8ba8693dafbe2f1256cb949fc73d21867a",
+        "size": 302699064,
+        "pointerSize": 134
+      },
+      "xetHash": "97220baeeaa8057e09bb4e559207c50b165c38f0120aeabfabc38a64c073ec6d",
+      "path": "PosteriorDataset_hf/LTMI/test/data-00001-of-00002.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "24a109ae57785006b893303bc85a2b07e4b39c0b",
+      "size": 2219,
+      "path": "PosteriorDataset_hf/LTMI/test/dataset_info.json"
+    },
+    {
+      "type": "file",
+      "oid": "6db79e4e8d21786101b79dccf67baa54d74388f5",
+      "size": 307,
+      "path": "PosteriorDataset_hf/LTMI/test/state.json"
+    },
+    {
+      "type": "file",
+      "oid": "ec755fc19d07c196b760ff4378fc9fb4cf006284",
+      "size": 67269984,
+      "lfs": {
+        "oid": "de928aa9e218e798b97daeb4922e1b77ec73e8385990fd594277b862070b5cf8",
+        "size": 67269984,
+        "pointerSize": 133
+      },
+      "xetHash": "9fa4e1555a7426905fd29e7334983cb01d38b10ac8f5b9a118a6426155110812",
+      "path": "PosteriorDataset_hf/LTMI/validation/data-00000-of-00001.arrow"
+    },
+    {
+      "type": "file",
+      "oid": "24a109ae57785006b893303bc85a2b07e4b39c0b",
+      "size": 2219,
+      "path": "PosteriorDataset_hf/LTMI/validation/dataset_info.json"
+    },
+    {
+      "type": "file",
+      "oid": "9f2056ea51f3188deb8c2d1fad590dc284394f58",
+      "size": 248,
+      "path": "PosteriorDataset_hf/LTMI/validation/state.json"
+    }
+  ]
+}
