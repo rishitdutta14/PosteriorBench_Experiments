@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please credit these experiment analyses and cite the original PosteriorBench work separately."
+type: software
+title: "PosteriorBench Experiments: Spatial Dependence, Uncertainty, and Physical Consistency"
+authors:
+  - family-names: Dutta
+    given-names: Rishit
+    affiliation: Indian Institute of Technology Kanpur
+repository-code: "https://github.com/rishitdutta14/PosteriorBench_Experiments"
+url: "https://github.com/rishitdutta14/PosteriorBench_Experiments"
+version: 0.1.0
+date-released: 2026-11-22

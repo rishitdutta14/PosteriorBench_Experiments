@@ -1,0 +1,3 @@
+# Replot summary figures from committed tables; no training data or PyTorch.
+numpy>=2.2,<3
+matplotlib>=3.9,<4

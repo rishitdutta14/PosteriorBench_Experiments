@@ -1,0 +1,13 @@
+# CPU analyses and the released ES-MDA adapter. Python 3.13 was used originally.
+numpy==2.2.6
+scipy==1.17.1
+matplotlib==3.11.2
+pandas==3.1.1
+datasets==5.0.1
+pyarrow==25.0.0
+h5py==3.16.0
+threadpoolctl==3.6.0
+PyYAML>=6.0,<7
+requests>=2.32,<3
+torch>=2.7,<3
+tqdm>=4.67,<5

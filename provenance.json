@@ -1,0 +1,9 @@
+{
+  "author": "Rishit Dutta",
+  "benchmark_repository": "https://github.com/neuraloperator/PosteriorBench",
+  "benchmark_commit": "ab416f5b322717f5668de01889ae0141dbc00af6",
+  "dataset_repository": "jcy20/PosteriorBench",
+  "dataset_revision": "f45719309a0ea6500b86e6e9973c18b3ffff8650",
+  "source": "Existing experiment scripts and saved results; portable paths added during packaging.",
+  "large_artifacts": "Training data and raw posterior ensembles are not committed; see docs/reproduction.md."
+}
